@@ -81,6 +81,8 @@ let
       link() {
         if [[ -e $1 ]]; then
           ln -s "$1" $2
+        elif [[ $2 == if_exists ]]; then
+          echo "Warning: $1 doesn't exist, can't link into $PWD"
         else
           echo "Error: $1 does not exist. Check that XCode is installed." >&2
           exit 1
@@ -93,12 +95,11 @@ let
       link /usr/bin/codesign
       link /usr/bin/xcodebuild
       link /usr/bin/xcrun
-      link "${xcodeBaseDir}/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator"
-
+      link "${xcodeBaseDir}/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator" if_exists
       cd $out
-      link "${xcodeBaseDir}/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs"
+      link "${xcodeBaseDir}/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs" if_exists
 
-      # Check if we have the xcodebuild version that we want
+      # Check if we have the xcodebuild binary available
       if ! $out/bin/xcodebuild -version; then
         echo "xcodebuild does not seem to be working. :(" >&2
         exit 1
