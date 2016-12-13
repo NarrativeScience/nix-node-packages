@@ -975,7 +975,8 @@
     di_0-0-1 = callPackage ./di/0.0.1.nix {};
     dicer = callPackage ./dicer/0.2.5.nix {};
     dicer_0-2-5 = callPackage ./dicer/0.2.5.nix {};
-    diff = callPackage ./diff/2.2.2.nix {};
+    diff = callPackage ./diff/3.1.0.nix {};
+    diff_3-1-0 = callPackage ./diff/3.1.0.nix {};
     diff_2-2-2 = callPackage ./diff/2.2.2.nix {};
     diff_2-2-1 = callPackage ./diff/2.2.1.nix {};
     diff_2-1-3 = callPackage ./diff/2.1.3.nix {};
