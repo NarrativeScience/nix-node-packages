@@ -285,7 +285,7 @@ let
                     package_json["${depType}"].pop("${name}", None)
                   '' else ''
                     print("Patching ${depType} ${name} to version ${version}")
-                    package_json["dependencies"]["${name}"] = "${version}"
+                    package_json["${depType}"]["${name}"] = "${version}"
                   ''}
             ''))}
         with open("package.json", "w") as f:
@@ -544,6 +544,7 @@ let
           echo "Symlinking current directory into node modules folder..."
           mkdir -p $(dirname $NODE_MODULES/$fullName)
           ln -s $(pwd) $NODE_MODULES/$fullName
+          runHook preShellPackageValidityCheck
           if echo "require('$fullName')" | node; then
             echo "Successfully set up $fullName in local environment."
           else

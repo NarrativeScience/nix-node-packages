@@ -110,9 +110,13 @@ let
   # Directory containing build tools for buildNodePackage
   node-build-tools = pkgs.stdenv.mkDerivation {
     name = "node-build-tools";
+    buildInputs = [pkgs.makeWrapper];
     buildCommand = ''
       mkdir -p $out
       cp -r ${./tools} $out/bin
+      chmod -R +w $out/bin
+      wrapProgram $out/bin/check-package-json \
+        --set SEMVER_PATH ${nodejs}/lib/node_modules/npm/node_modules/semver
       patchShebangs $out/bin
     '';
   };
