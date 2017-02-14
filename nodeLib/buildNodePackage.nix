@@ -276,29 +276,21 @@ let
 
     # Computes the "circular closure" of a package.
     # See ./circular_dependencies.md for details.
-    circularClosure =
-      # Packages we've already seen.
-      seenPackages:
-      # Name of package we're inspecting.
-      package:
-        if hasAttr package.name seenPackages
-        # We've completed the cycle; stop here.
-        then seenPackages
-        else let
-          # Add package to seen.
-          seen = seenPackages // {"${package.name}" = package;};
-          # Recur on circular dependencies.
-          closure = map (circularClosure seen)
-                        (attrValues package.circularDependencies);
-        in
-        # Combine the results into a single set.
-        foldl (a: b: a // b) {} closure;
+    computeCircularClosure = closureSoFar: p:
+      if hasAttr p.name closureSoFar then closureSoFar else
+      # First recur on all of the package's circular
+      # dependencies, then add it to the set of seen packages.
+      let cDeps = attrValues (p.circularDependencies or {});
+          newClosure = foldl computeCircularClosure closureSoFar cDeps;
+      in newClosure // {"${p.name}" = p;};
 
-    # Compute any cycles. Remove 'self' from the dependency closure.
-    circularDepClosure = removeAttrs (circularClosure {} self) [self.name];
+    # Starting with this package, compute all of the circular dependencies.
+    circularClosures = foldl computeCircularClosure {"${self.name}" = self;}
+                       circularDependencies;
 
-    # Turn the closure into a list of all circular dependencies.
-    circulars = attrValues circularDepClosure;
+    # Turn the closure into a list of all circular
+    # dependencies. Remove `self` so that we don't have a cycle.
+    circulars = attrValues (removeAttrs circularClosures [self.name]);
 
     # All of the transitive dependencies (non-circular) of the
     # circular packages.
@@ -337,19 +329,32 @@ let
         (concatMapLines circulars (dep: ''
           echo Satisfying ${dep.fullName}, circular dependency \
             of ${self.fullName}
-          mkdir -p node_modules
+          mkdir -p node_modules/$(dirname "${dep.fullName}")
+          SELFDIR=$(pwd)
           if [[ ! -d node_modules/${dep.fullName} ]]; then
-            tar xf ${dep.src}
-            if [[ ! -d package ]]; then
-              echo "Expected ${dep.src} to be a tarball containing a" \
-                   "'package' directory. Don't know how to handle this :("
-              exit 1
+            if [[ -d ${dep.src} ]]; then
+              cp -r ${dep.src} node_modules/${dep.fullName}
+              chmod -R +w node_modules/${dep.fullName}
+              (
+                cd node_modules/${dep.fullName}
+                mkdir -p node_modules/$(dirname "${fullName}")
+                ln -s $SELFDIR node_modules/${fullName}
+                ${concatMapLines (attrValues dep.runtimeDependencies) link}
+                ${dep.patchPhase}
+                (NO_DEV_DEPENDENCIES=yes check-package-json checkDependencies)
+                ${dep.preBuild or ""}
+              )
+            else
+              tar xf ${dep.src}
+              if [[ ! -d package ]]; then
+                echo "Expected ${dep.src} to be a tarball containing a" \
+                     "'package' directory. Don't know how to handle this :("
+                exit 1
+              fi
+              mv package node_modules/${dep.fullName}
             fi
-            mv package node_modules/${dep.fullName}
           fi
         ''))
-        # Symlink all of the transitive dependencies of the circular packages.
-        (concatMapLines (attrValues transCircularDeps) link)
         # Create a temporary symlink to the current package directory,
         # so that node knows that the dependency is satisfied when
         # checking the recursive dependencies (grumble grumble).
@@ -464,7 +469,7 @@ let
     '';
 
     # These are the arguments that we will pass to `stdenv.mkDerivation`.
-    mkDerivationArgs = {
+    mkDerivationArgs = removeAttrs args attrsToRemove // {
       inherit
         buildPhase
         checkPhase
@@ -592,7 +597,7 @@ let
         # if the derivation is the result of a `callPackage` application.
         overrideNodePackage = newArgs: buildNodePackage (args // newArgs);
       });
-    } // (removeAttrs args attrsToRemove) // {
+    } // {
       name = if namePrefix == null then throw "Name prefix is null"
              else if name == null then throw "Name is null"
              else if version == null then throw "Version of ${name} is null"
