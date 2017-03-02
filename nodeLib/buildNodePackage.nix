@@ -11,6 +11,8 @@
   xcode-wrapper,
   # Scripts that we use during the npm builds.
   node-build-tools,
+  # Sources and header files for packages which need to use the C API.
+  node-sources
 }:
 
 let
@@ -27,14 +29,6 @@ let
 
   # Map a function and concatenate with newlines.
   concatMapLines = list: func: joinLines (map func list);
-
-  # This expression builds the raw C headers and source files for the base
-  # node.js installation. Node packages which use the C API for node need to
-  # link against these files and use the headers.
-  nodejsSources = pkgs.runCommand "node-sources" {} ''
-    tar --no-same-owner --no-same-permissions -xf ${nodejs.src}
-    mv $(find . -type d -mindepth 1 -maxdepth 1) $out
-  '';
 
   # Checks a derivation's structure; if it doesn't have certain attributes then
   # it isn't a node package and we error. Otherwise return the package.
@@ -250,7 +244,7 @@ let
       # This will disable any user-level npm configuration.
       "--userconfig=/dev/null"
       # This flag is used for packages which link against the node headers.
-      "--nodedir=${nodejsSources}"
+      "--nodedir=${node-sources}"
       # This will tell npm not to run pre/post publish hooks
       # "--ignore-scripts"
       ] ++
