@@ -552,6 +552,8 @@
     change-case_2-1-6 = callPackage ./change-case/2.1.6.nix {};
     character-parser = callPackage ./character-parser/1.2.1.nix {};
     character-parser_1-2-1 = callPackage ./character-parser/1.2.1.nix {};
+    charenc = callPackage ./charenc/0.0.2.nix {};
+    charenc_0-0-2 = callPackage ./charenc/0.0.2.nix {};
     charm = callPackage ./charm/0.1.2.nix {};
     charm_0-1-2 = callPackage ./charm/0.1.2.nix {};
     cheerio = callPackage ./cheerio/0.22.0.nix {};
@@ -820,6 +822,8 @@
     cross-spawn_2-0-0 = callPackage ./cross-spawn/2.0.0.nix {};
     cross-spawn-async = callPackage ./cross-spawn-async/2.0.0.nix {};
     cross-spawn-async_2-0-0 = callPackage ./cross-spawn-async/2.0.0.nix {};
+    crypt = callPackage ./crypt/0.0.2.nix {};
+    crypt_0-0-2 = callPackage ./crypt/0.0.2.nix {};
     cryptiles = callPackage ./cryptiles/2.0.5.nix {};
     cryptiles_2-0-5 = callPackage ./cryptiles/2.0.5.nix {};
     cryptiles_0-2-2 = callPackage ./cryptiles/0.2.2.nix {};
@@ -992,8 +996,8 @@
     dicer = callPackage ./dicer/0.2.5.nix {};
     dicer_0-2-5 = callPackage ./dicer/0.2.5.nix {};
     diff = callPackage ./diff/3.2.0.nix {};
-    diff_3-1-0 = callPackage ./diff/3.1.0.nix {};
     diff_3-2-0 = callPackage ./diff/3.2.0.nix {};
+    diff_3-1-0 = callPackage ./diff/3.1.0.nix {};
     diff_2-2-2 = callPackage ./diff/2.2.2.nix {};
     diff_2-2-1 = callPackage ./diff/2.2.1.nix {};
     diff_2-1-3 = callPackage ./diff/2.1.3.nix {};
@@ -1819,7 +1823,8 @@
     is-arrayish_0-2-1 = callPackage ./is-arrayish/0.2.1.nix {};
     is-binary-path = callPackage ./is-binary-path/1.0.1.nix {};
     is-binary-path_1-0-1 = callPackage ./is-binary-path/1.0.1.nix {};
-    is-buffer = callPackage ./is-buffer/1.1.0.nix {};
+    is-buffer = callPackage ./is-buffer/1.1.5.nix {};
+    is-buffer_1-1-5 = callPackage ./is-buffer/1.1.5.nix {};
     is-buffer_1-1-0 = callPackage ./is-buffer/1.1.0.nix {};
     is-builtin-module = callPackage ./is-builtin-module/1.0.0.nix {};
     is-builtin-module_1-0-0 = callPackage ./is-builtin-module/1.0.0.nix {};
@@ -2060,6 +2065,8 @@
     karma-html2js-preprocessor_0-1-0 = callPackage ./karma-html2js-preprocessor/0.1.0.nix {};
     karma-jasmine = callPackage ./karma-jasmine/0.1.6.nix {};
     karma-jasmine_0-1-6 = callPackage ./karma-jasmine/0.1.6.nix {};
+    karma-junit-reporter = callPackage ./karma-junit-reporter/2.0.0.nix {};
+    karma-junit-reporter_2-0-0 = callPackage ./karma-junit-reporter/2.0.0.nix {};
     karma-mocha = callPackage ./karma-mocha/0.2.2.nix {};
     karma-mocha_0-2-2 = callPackage ./karma-mocha/0.2.2.nix {};
     karma-mocha_0-1-10 = callPackage ./karma-mocha/0.1.10.nix {};
@@ -2176,8 +2183,8 @@
     lockfile_1-0-1 = callPackage ./lockfile/1.0.1.nix {};
     lockfile_0-4-3 = callPackage ./lockfile/0.4.3.nix {};
     lodash = callPackage ./lodash/4.17.4.nix {};
-    lodash_4-17-2 = callPackage ./lodash/4.17.2.nix {};
     lodash_4-17-4 = callPackage ./lodash/4.17.4.nix {};
+    lodash_4-17-2 = callPackage ./lodash/4.17.2.nix {};
     lodash_4-11-2 = callPackage ./lodash/4.11.2.nix {};
     lodash_4-5-1 = callPackage ./lodash/4.5.1.nix {};
     lodash_4-3-0 = callPackage ./lodash/4.3.0.nix {};
@@ -2426,6 +2433,8 @@
     maxmin = callPackage ./maxmin/1.1.0.nix {};
     maxmin_1-1-0 = callPackage ./maxmin/1.1.0.nix {};
     maxmin_0-1-0 = callPackage ./maxmin/0.1.0.nix {};
+    md5 = callPackage ./md5/2.2.1.nix {};
+    md5_2-2-1 = callPackage ./md5/2.2.1.nix {};
     md5-hex = callPackage ./md5-hex/1.3.0.nix {};
     md5-hex_1-3-0 = callPackage ./md5-hex/1.3.0.nix {};
     md5-hex_1-1-0 = callPackage ./md5-hex/1.1.0.nix {};
@@ -2531,6 +2540,8 @@
     mocha_1-17-1 = callPackage ./mocha/1.17.1.nix {};
     mocha_1-7-4 = callPackage ./mocha/1.7.4.nix {};
     mocha_1-0-3 = callPackage ./mocha/1.0.3.nix {};
+    mocha-junit-reporter = callPackage ./mocha-junit-reporter/1.13.0.nix {};
+    mocha-junit-reporter_1-13-0 = callPackage ./mocha-junit-reporter/1.13.0.nix {};
     mocha-lcov-reporter = callPackage ./mocha-lcov-reporter/1.2.0.nix {};
     mocha-lcov-reporter_1-2-0 = callPackage ./mocha-lcov-reporter/1.2.0.nix {};
     mock-knex = callPackage ./mock-knex/0.2.2.nix {};
@@ -3193,8 +3204,8 @@
     readable-stream_2-1-5 = callPackage ./readable-stream/2.1.5.nix {};
     readable-stream_2-0-5 = callPackage ./readable-stream/2.0.5.nix {};
     readable-stream_2-0-4 = callPackage ./readable-stream/2.0.4.nix {};
-    readable-stream_1-1-13-1 = callPackage ./readable-stream/1.1.13-1.nix {};
     readable-stream_1-1-13 = callPackage ./readable-stream/1.1.13.nix {};
+    readable-stream_1-1-13-1 = callPackage ./readable-stream/1.1.13-1.nix {};
     readable-stream_1-0-33 = callPackage ./readable-stream/1.0.33.nix {};
     readable-stream_1-0-31 = callPackage ./readable-stream/1.0.31.nix {};
     readable-stream_1-0-27-1 = callPackage ./readable-stream/1.0.27-1.nix {};
@@ -4061,8 +4072,10 @@
     xdg-basedir_2-0-0 = callPackage ./xdg-basedir/2.0.0.nix {};
     xdg-basedir_1-0-1 = callPackage ./xdg-basedir/1.0.1.nix {};
     xhr2 = callPackage ./xhr2/0.1.4.nix {};
-    xhr2_0-1-3 = callPackage ./xhr2/0.1.3.nix {};
     xhr2_0-1-4 = callPackage ./xhr2/0.1.4.nix {};
+    xhr2_0-1-3 = callPackage ./xhr2/0.1.3.nix {};
+    xml = callPackage ./xml/1.0.1.nix {};
+    xml_1-0-1 = callPackage ./xml/1.0.1.nix {};
     xml-name-validator = callPackage ./xml-name-validator/2.0.1.nix {};
     xml-name-validator_2-0-1 = callPackage ./xml-name-validator/2.0.1.nix {};
     xml-name-validator_1-0-0 = callPackage ./xml-name-validator/1.0.0.nix {};
@@ -4076,6 +4089,7 @@
     xmlbuilder = callPackage ./xmlbuilder/4.2.1.nix {};
     xmlbuilder_4-2-1 = callPackage ./xmlbuilder/4.2.1.nix {};
     xmlbuilder_4-1-0 = callPackage ./xmlbuilder/4.1.0.nix {};
+    xmlbuilder_3-1-0 = callPackage ./xmlbuilder/3.1.0.nix {};
     xmlbuilder_2-6-2 = callPackage ./xmlbuilder/2.6.2.nix {};
     xmlbuilder_2-1-0 = callPackage ./xmlbuilder/2.1.0.nix {};
     xmlbuilder_0-4-2 = callPackage ./xmlbuilder/0.4.2.nix {};
