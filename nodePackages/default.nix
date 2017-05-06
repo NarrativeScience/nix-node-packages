@@ -1436,6 +1436,12 @@
     escope_0-0-16 = callPackage ./escope/0.0.16.nix {};
     eslint = callPackage ./eslint/3.19.0.nix {};
     eslint_3-19-0 = callPackage ./eslint/3.19.0.nix {};
+    eslint-config-airbnb = callPackage ./eslint-config-airbnb/14.1.0.nix {};
+    eslint-config-airbnb_14-1-0 = callPackage ./eslint-config-airbnb/14.1.0.nix {};
+    eslint-config-airbnb-base = callPackage ./eslint-config-airbnb-base/11.1.3.nix {};
+    eslint-config-airbnb-base_11-1-3 = callPackage ./eslint-config-airbnb-base/11.1.3.nix {};
+    namespaces.narrativescience.eslint-config-narrative-science = callPackage (./. + "@narrativescience/eslint-config-narrative-science/1.0.0.nix") {};
+    namespaces.narrativescience.eslint-config-narrative-science_1-0-0 = callPackage (./. + "@narrativescience/eslint-config-narrative-science/1.0.0.nix") {};
     eslint-config-react-app = callPackage ./eslint-config-react-app/0.6.2.nix {};
     eslint-config-react-app_0-6-2 = callPackage ./eslint-config-react-app/0.6.2.nix {};
     eslint-import-resolver-node = callPackage ./eslint-import-resolver-node/0.2.3.nix {};
@@ -1444,6 +1450,8 @@
     eslint-loader_1-7-1 = callPackage ./eslint-loader/1.7.1.nix {};
     eslint-module-utils = callPackage ./eslint-module-utils/2.0.0.nix {};
     eslint-module-utils_2-0-0 = callPackage ./eslint-module-utils/2.0.0.nix {};
+    eslint-plugin-babel = callPackage ./eslint-plugin-babel/4.1.1.nix {};
+    eslint-plugin-babel_4-1-1 = callPackage ./eslint-plugin-babel/4.1.1.nix {};
     eslint-plugin-flowtype = callPackage ./eslint-plugin-flowtype/2.32.1.nix {};
     eslint-plugin-flowtype_2-32-1 = callPackage ./eslint-plugin-flowtype/2.32.1.nix {};
     eslint-plugin-import = callPackage ./eslint-plugin-import/2.2.0.nix {};
