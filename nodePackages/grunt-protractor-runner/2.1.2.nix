@@ -7,7 +7,7 @@ buildNodePackage {
       sha1 = "df45213bfcb70d7f2f4f223b4e2c853ac2be5ae5";
     };
     deps = with nodePackages; [
-      protractor_2-2-0
+      protractor_2-5-1
       through2_0-5-1
       split_0-3-3
     ];
