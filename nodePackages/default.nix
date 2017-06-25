@@ -58,6 +58,8 @@
     agent-base = callPackage ./agent-base/2.0.1.nix {};
     agent-base_2-0-1 = callPackage ./agent-base/2.0.1.nix {};
     agent-base_1-0-2 = callPackage ./agent-base/1.0.2.nix {};
+    airbnb-prop-types = callPackage ./airbnb-prop-types/2.7.0.nix {};
+    airbnb-prop-types_2-7-0 = callPackage ./airbnb-prop-types/2.7.0.nix {};
     ajv = callPackage ./ajv/4.11.6.nix {};
     ajv_4-11-6 = callPackage ./ajv/4.11.6.nix {};
     ajv-keywords = callPackage ./ajv-keywords/1.5.1.nix {};
@@ -2018,6 +2020,8 @@
     has-flag_1-0-0 = callPackage ./has-flag/1.0.0.nix {};
     has-gulplog = callPackage ./has-gulplog/0.1.0.nix {};
     has-gulplog_0-1-0 = callPackage ./has-gulplog/0.1.0.nix {};
+    has-symbols = callPackage ./has-symbols/1.0.0.nix {};
+    has-symbols_1-0-0 = callPackage ./has-symbols/1.0.0.nix {};
     has-unicode = callPackage ./has-unicode/2.0.0.nix {};
     has-unicode_2-0-0 = callPackage ./has-unicode/2.0.0.nix {};
     has-unicode_1-0-1 = callPackage ./has-unicode/1.0.1.nix {};
@@ -2922,7 +2926,8 @@
     lolex_1-1-0 = callPackage ./lolex/1.1.0.nix {};
     longest = callPackage ./longest/1.0.1.nix {};
     longest_1-0-1 = callPackage ./longest/1.0.1.nix {};
-    loose-envify = callPackage ./loose-envify/1.1.0.nix {};
+    loose-envify = callPackage ./loose-envify/1.3.1.nix {};
+    loose-envify_1-3-1 = callPackage ./loose-envify/1.3.1.nix {};
     loose-envify_1-1-0 = callPackage ./loose-envify/1.1.0.nix {};
     loud-rejection = callPackage ./loud-rejection/1.2.0.nix {};
     loud-rejection_1-2-0 = callPackage ./loud-rejection/1.2.0.nix {};
@@ -3768,8 +3773,11 @@
     promzard = callPackage ./promzard/0.3.0.nix {};
     promzard_0-3-0 = callPackage ./promzard/0.3.0.nix {};
     promzard_0-2-2 = callPackage ./promzard/0.2.2.nix {};
-    prop-types = callPackage ./prop-types/15.5.8.nix {};
+    prop-types = callPackage ./prop-types/15.5.10.nix {};
+    prop-types_15-5-10 = callPackage ./prop-types/15.5.10.nix {};
     prop-types_15-5-8 = callPackage ./prop-types/15.5.8.nix {};
+    prop-types-exact = callPackage ./prop-types-exact/1.1.0.nix {};
+    prop-types-exact_1-1-0 = callPackage ./prop-types-exact/1.1.0.nix {};
     propprop = callPackage ./propprop/0.3.0.nix {};
     propprop_0-3-0 = callPackage ./propprop/0.3.0.nix {};
     protagonist = callPackage ./protagonist/0.20.1.nix {};
