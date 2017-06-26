@@ -2315,6 +2315,8 @@
     is-symbol_1-0-1 = callPackage ./is-symbol/1.0.1.nix {};
     is-tar = callPackage ./is-tar/1.0.0.nix {};
     is-tar_1-0-0 = callPackage ./is-tar/1.0.0.nix {};
+    is-touch-device = callPackage ./is-touch-device/1.0.1.nix {};
+    is-touch-device_1-0-1 = callPackage ./is-touch-device/1.0.1.nix {};
     is-type = callPackage ./is-type/0.0.1.nix {};
     is-type_0-0-1 = callPackage ./is-type/0.0.1.nix {};
     is-typedarray = callPackage ./is-typedarray/1.0.0.nix {};
