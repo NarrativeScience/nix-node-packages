@@ -3914,6 +3914,8 @@
     react-autobind_1-0-6 = callPackage ./react-autobind/1.0.6.nix {};
     react-dom = callPackage ./react-dom/15.5.4.nix {};
     react-dom_15-5-4 = callPackage ./react-dom/15.5.4.nix {};
+    react-moment-proptypes = callPackage ./react-moment-proptypes/1.4.0.nix {};
+    react-moment-proptypes_1-4-0 = callPackage ./react-moment-proptypes/1.4.0.nix {};
     react-onclickoutside = callPackage ./react-onclickoutside/5.11.1.nix {};
     react-onclickoutside_5-11-1 = callPackage ./react-onclickoutside/5.11.1.nix {};
     react-redux = callPackage ./react-redux/5.0.4.nix {};
