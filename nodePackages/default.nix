@@ -973,6 +973,8 @@
     console-control-strings_1-1-0 = callPackage ./console-control-strings/1.1.0.nix {};
     consolidate = callPackage ./consolidate/0.9.1.nix {};
     consolidate_0-9-1 = callPackage ./consolidate/0.9.1.nix {};
+    consolidated-events = callPackage ./consolidated-events/1.1.0.nix {};
+    consolidated-events_1-1-0 = callPackage ./consolidated-events/1.1.0.nix {};
     constant-case = callPackage ./constant-case/1.1.2.nix {};
     constant-case_1-1-2 = callPackage ./constant-case/1.1.2.nix {};
     constantinople = callPackage ./constantinople/3.0.2.nix {};
