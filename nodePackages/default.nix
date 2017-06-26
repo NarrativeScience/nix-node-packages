@@ -3918,6 +3918,8 @@
     react-moment-proptypes_1-4-0 = callPackage ./react-moment-proptypes/1.4.0.nix {};
     react-onclickoutside = callPackage ./react-onclickoutside/5.11.1.nix {};
     react-onclickoutside_5-11-1 = callPackage ./react-onclickoutside/5.11.1.nix {};
+    react-portal = callPackage ./react-portal/3.1.0.nix {};
+    react-portal_3-1-0 = callPackage ./react-portal/3.1.0.nix {};
     react-redux = callPackage ./react-redux/5.0.4.nix {};
     react-redux_5-0-4 = callPackage ./react-redux/5.0.4.nix {};
     react-test-renderer = callPackage ./react-test-renderer/15.5.4.nix {};
