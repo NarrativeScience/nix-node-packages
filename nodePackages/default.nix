@@ -784,7 +784,8 @@
     clap_1-1-3 = callPackage ./clap/1.1.3.nix {};
     class-extend = callPackage ./class-extend/0.1.2.nix {};
     class-extend_0-1-2 = callPackage ./class-extend/0.1.2.nix {};
-    classnames = callPackage ./classnames/2.2.0.nix {};
+    classnames = callPackage ./classnames/2.2.5.nix {};
+    classnames_2-2-5 = callPackage ./classnames/2.2.5.nix {};
     classnames_2-2-0 = callPackage ./classnames/2.2.0.nix {};
     clean-css = callPackage ./clean-css/4.0.12.nix {};
     clean-css_4-0-12 = callPackage ./clean-css/4.0.12.nix {};
