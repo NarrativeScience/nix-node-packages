@@ -3912,6 +3912,8 @@
     react-addons-update_15-5-2 = callPackage ./react-addons-update/15.5.2.nix {};
     react-autobind = callPackage ./react-autobind/1.0.6.nix {};
     react-autobind_1-0-6 = callPackage ./react-autobind/1.0.6.nix {};
+    react-dates = callPackage ./react-dates/12.1.2.nix {};
+    react-dates_12-1-2 = callPackage ./react-dates/12.1.2.nix {};
     react-dom = callPackage ./react-dom/15.5.4.nix {};
     react-dom_15-5-4 = callPackage ./react-dom/15.5.4.nix {};
     react-moment-proptypes = callPackage ./react-moment-proptypes/1.4.0.nix {};
