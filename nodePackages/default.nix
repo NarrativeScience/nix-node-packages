@@ -2380,7 +2380,8 @@
     jasmine-core_2-1-3 = callPackage ./jasmine-core/2.1.3.nix {};
     jasmine-jquery = callPackage ./jasmine-jquery/2.1.1.nix {};
     jasmine-jquery_2-1-1 = callPackage ./jasmine-jquery/2.1.1.nix {};
-    jasmine-reporters = callPackage ./jasmine-reporters/1.1.0.nix {};
+    jasmine-reporters = callPackage ./jasmine-reporters/2.2.1.nix {};
+    jasmine-reporters_2-2-1 = callPackage ./jasmine-reporters/2.2.1.nix {};
     jasmine-reporters_1-1-0 = callPackage ./jasmine-reporters/1.1.0.nix {};
     jasmine-spec-reporter = callPackage ./jasmine-spec-reporter/2.4.0.nix {};
     jasmine-spec-reporter_2-4-0 = callPackage ./jasmine-spec-reporter/2.4.0.nix {};
@@ -4979,6 +4980,8 @@
     xmlbuilder_2-6-2 = callPackage ./xmlbuilder/2.6.2.nix {};
     xmlbuilder_2-1-0 = callPackage ./xmlbuilder/2.1.0.nix {};
     xmlbuilder_0-4-2 = callPackage ./xmlbuilder/0.4.2.nix {};
+    xmldom = callPackage ./xmldom/0.1.27.nix {};
+    xmldom_0-1-27 = callPackage ./xmldom/0.1.27.nix {};
     xmlhttprequest = callPackage ./xmlhttprequest/1.8.0.nix {};
     xmlhttprequest_1-8-0 = callPackage ./xmlhttprequest/1.8.0.nix {};
     xmlhttprequest_1-6-0 = callPackage ./xmlhttprequest/1.6.0.nix {};
