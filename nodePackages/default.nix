@@ -58,6 +58,8 @@
     agent-base = callPackage ./agent-base/2.0.1.nix {};
     agent-base_2-0-1 = callPackage ./agent-base/2.0.1.nix {};
     agent-base_1-0-2 = callPackage ./agent-base/1.0.2.nix {};
+    airbnb-prop-types = callPackage ./airbnb-prop-types/2.7.0.nix {};
+    airbnb-prop-types_2-7-0 = callPackage ./airbnb-prop-types/2.7.0.nix {};
     ajv = callPackage ./ajv/4.11.6.nix {};
     ajv_4-11-6 = callPackage ./ajv/4.11.6.nix {};
     ajv-keywords = callPackage ./ajv-keywords/1.5.1.nix {};
@@ -782,7 +784,8 @@
     clap_1-1-3 = callPackage ./clap/1.1.3.nix {};
     class-extend = callPackage ./class-extend/0.1.2.nix {};
     class-extend_0-1-2 = callPackage ./class-extend/0.1.2.nix {};
-    classnames = callPackage ./classnames/2.2.0.nix {};
+    classnames = callPackage ./classnames/2.2.5.nix {};
+    classnames_2-2-5 = callPackage ./classnames/2.2.5.nix {};
     classnames_2-2-0 = callPackage ./classnames/2.2.0.nix {};
     clean-css = callPackage ./clean-css/4.0.12.nix {};
     clean-css_4-0-12 = callPackage ./clean-css/4.0.12.nix {};
@@ -970,6 +973,8 @@
     console-control-strings_1-1-0 = callPackage ./console-control-strings/1.1.0.nix {};
     consolidate = callPackage ./consolidate/0.9.1.nix {};
     consolidate_0-9-1 = callPackage ./consolidate/0.9.1.nix {};
+    consolidated-events = callPackage ./consolidated-events/1.1.0.nix {};
+    consolidated-events_1-1-0 = callPackage ./consolidated-events/1.1.0.nix {};
     constant-case = callPackage ./constant-case/1.1.2.nix {};
     constant-case_1-1-2 = callPackage ./constant-case/1.1.2.nix {};
     constantinople = callPackage ./constantinople/3.0.2.nix {};
@@ -2018,6 +2023,8 @@
     has-flag_1-0-0 = callPackage ./has-flag/1.0.0.nix {};
     has-gulplog = callPackage ./has-gulplog/0.1.0.nix {};
     has-gulplog_0-1-0 = callPackage ./has-gulplog/0.1.0.nix {};
+    has-symbols = callPackage ./has-symbols/1.0.0.nix {};
+    has-symbols_1-0-0 = callPackage ./has-symbols/1.0.0.nix {};
     has-unicode = callPackage ./has-unicode/2.0.0.nix {};
     has-unicode_2-0-0 = callPackage ./has-unicode/2.0.0.nix {};
     has-unicode_1-0-1 = callPackage ./has-unicode/1.0.1.nix {};
@@ -2380,7 +2387,8 @@
     jasmine-core_2-1-3 = callPackage ./jasmine-core/2.1.3.nix {};
     jasmine-jquery = callPackage ./jasmine-jquery/2.1.1.nix {};
     jasmine-jquery_2-1-1 = callPackage ./jasmine-jquery/2.1.1.nix {};
-    jasmine-reporters = callPackage ./jasmine-reporters/1.1.0.nix {};
+    jasmine-reporters = callPackage ./jasmine-reporters/2.2.1.nix {};
+    jasmine-reporters_2-2-1 = callPackage ./jasmine-reporters/2.2.1.nix {};
     jasmine-reporters_1-1-0 = callPackage ./jasmine-reporters/1.1.0.nix {};
     jasmine-spec-reporter = callPackage ./jasmine-spec-reporter/2.4.0.nix {};
     jasmine-spec-reporter_2-4-0 = callPackage ./jasmine-spec-reporter/2.4.0.nix {};
@@ -2897,6 +2905,8 @@
     lodash-templatesettings = callPackage ./lodash-templatesettings/3.1.0.nix {};
     lodash-templatesettings_3-1-0 = callPackage ./lodash-templatesettings/3.1.0.nix {};
     lodash-templatesettings_2-4-1 = callPackage ./lodash-templatesettings/2.4.1.nix {};
+    lodash-throttle = callPackage ./lodash-throttle/4.1.1.nix {};
+    lodash-throttle_4-1-1 = callPackage ./lodash-throttle/4.1.1.nix {};
     lodash-union = callPackage ./lodash-union/4.0.1.nix {};
     lodash-union_4-0-1 = callPackage ./lodash-union/4.0.1.nix {};
     lodash-union_3-1-0 = callPackage ./lodash-union/3.1.0.nix {};
@@ -2922,7 +2932,8 @@
     lolex_1-1-0 = callPackage ./lolex/1.1.0.nix {};
     longest = callPackage ./longest/1.0.1.nix {};
     longest_1-0-1 = callPackage ./longest/1.0.1.nix {};
-    loose-envify = callPackage ./loose-envify/1.1.0.nix {};
+    loose-envify = callPackage ./loose-envify/1.3.1.nix {};
+    loose-envify_1-3-1 = callPackage ./loose-envify/1.3.1.nix {};
     loose-envify_1-1-0 = callPackage ./loose-envify/1.1.0.nix {};
     loud-rejection = callPackage ./loud-rejection/1.2.0.nix {};
     loud-rejection_1-2-0 = callPackage ./loud-rejection/1.2.0.nix {};
@@ -3768,8 +3779,11 @@
     promzard = callPackage ./promzard/0.3.0.nix {};
     promzard_0-3-0 = callPackage ./promzard/0.3.0.nix {};
     promzard_0-2-2 = callPackage ./promzard/0.2.2.nix {};
-    prop-types = callPackage ./prop-types/15.5.8.nix {};
+    prop-types = callPackage ./prop-types/15.5.10.nix {};
+    prop-types_15-5-10 = callPackage ./prop-types/15.5.10.nix {};
     prop-types_15-5-8 = callPackage ./prop-types/15.5.8.nix {};
+    prop-types-exact = callPackage ./prop-types-exact/1.1.0.nix {};
+    prop-types-exact_1-1-0 = callPackage ./prop-types-exact/1.1.0.nix {};
     propprop = callPackage ./propprop/0.3.0.nix {};
     propprop_0-3-0 = callPackage ./propprop/0.3.0.nix {};
     protagonist = callPackage ./protagonist/0.20.1.nix {};
@@ -3899,10 +3913,16 @@
     react-addons-update_15-5-2 = callPackage ./react-addons-update/15.5.2.nix {};
     react-autobind = callPackage ./react-autobind/1.0.6.nix {};
     react-autobind_1-0-6 = callPackage ./react-autobind/1.0.6.nix {};
+    react-dates = callPackage ./react-dates/12.1.2.nix {};
+    react-dates_12-1-2 = callPackage ./react-dates/12.1.2.nix {};
     react-dom = callPackage ./react-dom/15.5.4.nix {};
     react-dom_15-5-4 = callPackage ./react-dom/15.5.4.nix {};
+    react-moment-proptypes = callPackage ./react-moment-proptypes/1.4.0.nix {};
+    react-moment-proptypes_1-4-0 = callPackage ./react-moment-proptypes/1.4.0.nix {};
     react-onclickoutside = callPackage ./react-onclickoutside/5.11.1.nix {};
     react-onclickoutside_5-11-1 = callPackage ./react-onclickoutside/5.11.1.nix {};
+    react-portal = callPackage ./react-portal/3.1.0.nix {};
+    react-portal_3-1-0 = callPackage ./react-portal/3.1.0.nix {};
     react-redux = callPackage ./react-redux/5.0.4.nix {};
     react-redux_5-0-4 = callPackage ./react-redux/5.0.4.nix {};
     react-test-renderer = callPackage ./react-test-renderer/15.5.4.nix {};
@@ -4979,6 +4999,8 @@
     xmlbuilder_2-6-2 = callPackage ./xmlbuilder/2.6.2.nix {};
     xmlbuilder_2-1-0 = callPackage ./xmlbuilder/2.1.0.nix {};
     xmlbuilder_0-4-2 = callPackage ./xmlbuilder/0.4.2.nix {};
+    xmldom = callPackage ./xmldom/0.1.27.nix {};
+    xmldom_0-1-27 = callPackage ./xmldom/0.1.27.nix {};
     xmlhttprequest = callPackage ./xmlhttprequest/1.8.0.nix {};
     xmlhttprequest_1-8-0 = callPackage ./xmlhttprequest/1.8.0.nix {};
     xmlhttprequest_1-6-0 = callPackage ./xmlhttprequest/1.6.0.nix {};
