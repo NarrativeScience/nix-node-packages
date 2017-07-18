@@ -1412,6 +1412,8 @@
     es6-promise_2-1-1 = callPackage ./es6-promise/2.1.1.nix {};
     es6-set = callPackage ./es6-set/0.1.5.nix {};
     es6-set_0-1-5 = callPackage ./es6-set/0.1.5.nix {};
+    es6-shim = callPackage ./es6-shim/0.35.3.nix {};
+    es6-shim_0-35-3 = callPackage ./es6-shim/0.35.3.nix {};
     es6-symbol = callPackage ./es6-symbol/3.1.1.nix {};
     es6-symbol_3-1-1 = callPackage ./es6-symbol/3.1.1.nix {};
     es6-symbol_3-0-2 = callPackage ./es6-symbol/3.0.2.nix {};
