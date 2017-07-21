@@ -78,6 +78,10 @@
     amp_0-3-1 = callPackage ./amp/0.3.1.nix {};
     amp-message = callPackage ./amp-message/0.1.2.nix {};
     amp-message_0-1-2 = callPackage ./amp-message/0.1.2.nix {};
+    angular = callPackage ./angular/1.5.7.nix {};
+    angular_1-5-7 = callPackage ./angular/1.5.7.nix {};
+    namespaces.types.angular = callPackage (./. + "@types/angular/1.6.27.nix") {};
+    namespaces.types.angular_1-6-27 = callPackage (./. + "@types/angular/1.6.27.nix") {};
     ansi = callPackage ./ansi/0.3.1.nix {};
     ansi_0-3-1 = callPackage ./ansi/0.3.1.nix {};
     ansi_0-3-0 = callPackage ./ansi/0.3.0.nix {};
@@ -2719,6 +2723,8 @@
     lodash_1-1-1 = callPackage ./lodash/1.1.1.nix {};
     lodash_1-0-2 = callPackage ./lodash/1.0.2.nix {};
     lodash_0-9-2 = callPackage ./lodash/0.9.2.nix {};
+    namespaces.types.lodash = callPackage (./. + "@types/lodash/4.14.70.nix") {};
+    namespaces.types.lodash_4-14-70 = callPackage (./. + "@types/lodash/4.14.70.nix") {};
     lodash-_arraycopy = callPackage ./lodash-_arraycopy/3.0.0.nix {};
     lodash-_arraycopy_3-0-0 = callPackage ./lodash-_arraycopy/3.0.0.nix {};
     lodash-_arrayeach = callPackage ./lodash-_arrayeach/3.0.0.nix {};
@@ -2805,6 +2811,8 @@
     lodash-assign = callPackage ./lodash-assign/4.2.0.nix {};
     lodash-assign_4-2-0 = callPackage ./lodash-assign/4.2.0.nix {};
     lodash-assign_3-2-0 = callPackage ./lodash-assign/3.2.0.nix {};
+    namespaces.types.lodash-assign = callPackage (./. + "@types/lodash-assign/4.2.2.nix") {};
+    namespaces.types.lodash-assign_4-2-2 = callPackage (./. + "@types/lodash-assign/4.2.2.nix") {};
     lodash-assignin = callPackage ./lodash-assignin/4.2.0.nix {};
     lodash-assignin_4-2-0 = callPackage ./lodash-assignin/4.2.0.nix {};
     lodash-bind = callPackage ./lodash-bind/4.2.1.nix {};
@@ -2839,6 +2847,10 @@
     lodash-flatten_4-4-0 = callPackage ./lodash-flatten/4.4.0.nix {};
     lodash-foreach = callPackage ./lodash-foreach/4.5.0.nix {};
     lodash-foreach_4-5-0 = callPackage ./lodash-foreach/4.5.0.nix {};
+    lodash-frompairs = callPackage ./lodash-frompairs/4.0.1.nix {};
+    lodash-frompairs_4-0-1 = callPackage ./lodash-frompairs/4.0.1.nix {};
+    namespaces.types.lodash-frompairs = callPackage (./. + "@types/lodash-frompairs/4.0.2.nix") {};
+    namespaces.types.lodash-frompairs_4-0-2 = callPackage (./. + "@types/lodash-frompairs/4.0.2.nix") {};
     lodash-isarguments = callPackage ./lodash-isarguments/3.1.0.nix {};
     lodash-isarguments_3-1-0 = callPackage ./lodash-isarguments/3.1.0.nix {};
     lodash-isarguments_3-0-5 = callPackage ./lodash-isarguments/3.0.5.nix {};
@@ -2864,6 +2876,10 @@
     lodash-keysin_3-0-8 = callPackage ./lodash-keysin/3.0.8.nix {};
     lodash-map = callPackage ./lodash-map/4.6.0.nix {};
     lodash-map_4-6-0 = callPackage ./lodash-map/4.6.0.nix {};
+    lodash-mapvalues = callPackage ./lodash-mapvalues/4.6.0.nix {};
+    lodash-mapvalues_4-6-0 = callPackage ./lodash-mapvalues/4.6.0.nix {};
+    namespaces.types.lodash-mapvalues = callPackage (./. + "@types/lodash-mapvalues/4.6.2.nix") {};
+    namespaces.types.lodash-mapvalues_4-6-2 = callPackage (./. + "@types/lodash-mapvalues/4.6.2.nix") {};
     lodash-memoize = callPackage ./lodash-memoize/4.1.2.nix {};
     lodash-memoize_4-1-2 = callPackage ./lodash-memoize/4.1.2.nix {};
     lodash-memoize_3-0-4 = callPackage ./lodash-memoize/3.0.4.nix {};
@@ -2897,6 +2913,8 @@
     lodash-restparam_3-6-1 = callPackage ./lodash-restparam/3.6.1.nix {};
     lodash-some = callPackage ./lodash-some/4.6.0.nix {};
     lodash-some_4-6-0 = callPackage ./lodash-some/4.6.0.nix {};
+    namespaces.types.lodash-some = callPackage (./. + "@types/lodash-some/4.6.2.nix") {};
+    namespaces.types.lodash-some_4-6-2 = callPackage (./. + "@types/lodash-some/4.6.2.nix") {};
     lodash-tail = callPackage ./lodash-tail/4.1.1.nix {};
     lodash-tail_4-1-1 = callPackage ./lodash-tail/4.1.1.nix {};
     lodash-template = callPackage ./lodash-template/3.6.2.nix {};
@@ -3220,6 +3238,8 @@
     ng-redux_3-4-0-beta-1 = callPackage ./ng-redux/3.4.0-beta.1.nix {};
     ng-tags-input = callPackage ./ng-tags-input/3.2.0.nix {};
     ng-tags-input_3-2-0 = callPackage ./ng-tags-input/3.2.0.nix {};
+    ngcomponent = callPackage ./ngcomponent/3.0.2.nix {};
+    ngcomponent_3-0-2 = callPackage ./ngcomponent/3.0.2.nix {};
     ngtemplate-loader = callPackage ./ngtemplate-loader/1.3.1.nix {};
     ngtemplate-loader_1-3-1 = callPackage ./ngtemplate-loader/1.3.1.nix {};
     no-case = callPackage ./no-case/2.3.1.nix {};
@@ -3905,6 +3925,8 @@
     react_15-5-4 = callPackage ./react/15.5.4.nix {};
     react_0-14-3 = callPackage ./react/0.14.3.nix {};
     react_0-13-3 = callPackage ./react/0.13.3.nix {};
+    namespaces.types.react = callPackage (./. + "@types/react/15.0.38.nix") {};
+    namespaces.types.react_15-0-38 = callPackage (./. + "@types/react/15.0.38.nix") {};
     react-addons-css-transition-group = callPackage ./react-addons-css-transition-group/15.5.2.nix {};
     react-addons-css-transition-group_15-5-2 = callPackage ./react-addons-css-transition-group/15.5.2.nix {};
     react-addons-shallow-compare = callPackage ./react-addons-shallow-compare/15.5.2.nix {};
@@ -3917,6 +3939,8 @@
     react-dates_12-1-2 = callPackage ./react-dates/12.1.2.nix {};
     react-dom = callPackage ./react-dom/15.5.4.nix {};
     react-dom_15-5-4 = callPackage ./react-dom/15.5.4.nix {};
+    namespaces.types.react-dom = callPackage (./. + "@types/react-dom/15.5.1.nix") {};
+    namespaces.types.react-dom_15-5-1 = callPackage (./. + "@types/react-dom/15.5.1.nix") {};
     react-moment-proptypes = callPackage ./react-moment-proptypes/1.4.0.nix {};
     react-moment-proptypes_1-4-0 = callPackage ./react-moment-proptypes/1.4.0.nix {};
     react-onclickoutside = callPackage ./react-onclickoutside/5.11.1.nix {};
@@ -3931,6 +3955,8 @@
     react-tether_0-5-7 = callPackage ./react-tether/0.5.7.nix {};
     react-tooltip = callPackage ./react-tooltip/3.3.0.nix {};
     react-tooltip_3-3-0 = callPackage ./react-tooltip/3.3.0.nix {};
+    react2angular = callPackage ./react2angular/1.1.3.nix {};
+    react2angular_1-1-3 = callPackage ./react2angular/1.1.3.nix {};
     read = callPackage ./read/1.0.7.nix {};
     read_1-0-7 = callPackage ./read/1.0.7.nix {};
     read-all-stream = callPackage ./read-all-stream/3.0.1.nix {};
