@@ -5,8 +5,8 @@ buildNodePackage {
     src = fetchUrlWithHeaders {
       url = "https://registry.npmjs.org/@types/lodash.some/-/lodash.some-4.6.2.tgz";
       sha1 = "d0d167ab83417cf4d574cdf4caa218ffba32ca00";
-      headers.Authorization = "Bearer ${namespaceTokens.types}";
     };
+    patchPhase = "touch index.js";
     namespace = "types";
     deps = with nodePackages; [
       namespaces.types.lodash_4-14-70

@@ -5,8 +5,8 @@ buildNodePackage {
     src = fetchUrlWithHeaders {
       url = "https://registry.npmjs.org/@types/react/-/react-15.0.38.tgz";
       sha1 = "6afea31a9fe66304af474106ba372ddaba449995";
-      headers.Authorization = "Bearer ${namespaceTokens.types}";
     };
+    patchPhase = "touch index.js";
     namespace = "types";
     deps = [];
     devDependencies = [];

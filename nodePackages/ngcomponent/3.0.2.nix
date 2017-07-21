@@ -13,7 +13,7 @@ buildNodePackage {
       namespaces.types.lodash-assign_4-2-2
       namespaces.types.lodash-some_4-6-2
       lodash-mapvalues_4-6-0
-      angular_1-6-5
+      angular_1-5-7
       namespaces.types.angular_1-6-27
     ];
     meta = {
