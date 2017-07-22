@@ -7,14 +7,15 @@ buildNodePackage {
       sha1 = "d67f89d892ec5806c6d1445c5f195a6ce6ec5486";
     };
     deps = with nodePackages; [
-      namespaces.types.lodash-mapvalues_4-6-2
-      lodash-some_4-6-0
-      lodash-assign_4-2-0
-      namespaces.types.lodash-assign_4-2-2
-      namespaces.types.lodash-some_4-6-2
-      lodash-mapvalues_4-6-0
       angular_1-5-7
+      lodash_3-10-1
+      lodash-assign_4-2-0
+      lodash-mapvalues_4-6-0
+      lodash-some_4-6-0
       namespaces.types.angular_1-6-27
+      namespaces.types.lodash-assign_4-2-2
+      namespaces.types.lodash-mapvalues_4-6-2
+      namespaces.types.lodash-some_4-6-2
     ];
     meta = {
       homepage = "https://github.com/coatue-oss/ngcomponent#readme";
