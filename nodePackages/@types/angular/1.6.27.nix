@@ -5,8 +5,8 @@ buildNodePackage {
     src = fetchUrlWithHeaders {
       url = "https://registry.npmjs.org/@types/angular/-/angular-1.6.27.tgz";
       sha1 = "d18feb611e23fc85c3c98b1b5f76a7cece56de0d";
-      headers.Authorization = "Bearer ${namespaceTokens.types}";
     };
+    patchPhase = "touch index.js";
     namespace = "types";
     deps = [];
     devDependencies = [];
