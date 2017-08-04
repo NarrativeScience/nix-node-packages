@@ -1464,6 +1464,8 @@
     eslint-module-utils = callPackage ./eslint-module-utils/2.1.1.nix {};
     eslint-module-utils_2-1-1 = callPackage ./eslint-module-utils/2.1.1.nix {};
     eslint-module-utils_2-0-0 = callPackage ./eslint-module-utils/2.0.0.nix {};
+    eslint-plugin-babel = callPackage ./eslint-plugin-babel/4.1.1.nix {};
+    eslint-plugin-babel_4-1-1 = callPackage ./eslint-plugin-babel/4.1.1.nix {};
     eslint-plugin-flowtype = callPackage ./eslint-plugin-flowtype/2.32.1.nix {};
     eslint-plugin-flowtype_2-32-1 = callPackage ./eslint-plugin-flowtype/2.32.1.nix {};
     eslint-plugin-import = callPackage ./eslint-plugin-import/2.7.0.nix {};
