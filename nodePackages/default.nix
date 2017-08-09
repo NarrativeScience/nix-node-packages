@@ -833,6 +833,8 @@
     coa_1-0-1 = callPackage ./coa/1.0.1.nix {};
     code-point-at = callPackage ./code-point-at/1.0.0.nix {};
     code-point-at_1-0-0 = callPackage ./code-point-at/1.0.0.nix {};
+    codemirror = callPackage ./codemirror/5.28.0.nix {};
+    codemirror_5-28-0 = callPackage ./codemirror/5.28.0.nix {};
     coffee-coverage = callPackage ./coffee-coverage/0.7.0.nix {};
     coffee-coverage_0-7-0 = callPackage ./coffee-coverage/0.7.0.nix {};
     coffee-errors = callPackage ./coffee-errors/0.8.6.nix {};
@@ -2845,7 +2847,8 @@
     lodash-create_3-1-1 = callPackage ./lodash-create/3.1.1.nix {};
     lodash-curry = callPackage ./lodash-curry/4.1.1.nix {};
     lodash-curry_4-1-1 = callPackage ./lodash-curry/4.1.1.nix {};
-    lodash-debounce = callPackage ./lodash-debounce/3.1.1.nix {};
+    lodash-debounce = callPackage ./lodash-debounce/4.0.8.nix {};
+    lodash-debounce_4-0-8 = callPackage ./lodash-debounce/4.0.8.nix {};
     lodash-debounce_3-1-1 = callPackage ./lodash-debounce/3.1.1.nix {};
     lodash-debounce_2-4-1 = callPackage ./lodash-debounce/2.4.1.nix {};
     lodash-defaults = callPackage ./lodash-defaults/4.2.0.nix {};
@@ -2874,6 +2877,8 @@
     lodash-isarray = callPackage ./lodash-isarray/4.0.0.nix {};
     lodash-isarray_4-0-0 = callPackage ./lodash-isarray/4.0.0.nix {};
     lodash-isarray_3-0-4 = callPackage ./lodash-isarray/3.0.4.nix {};
+    lodash-isequal = callPackage ./lodash-isequal/4.5.0.nix {};
+    lodash-isequal_4-5-0 = callPackage ./lodash-isequal/4.5.0.nix {};
     lodash-isfunction = callPackage ./lodash-isfunction/3.0.8.nix {};
     lodash-isfunction_3-0-8 = callPackage ./lodash-isfunction/3.0.8.nix {};
     lodash-isfunction_2-4-1 = callPackage ./lodash-isfunction/2.4.1.nix {};
