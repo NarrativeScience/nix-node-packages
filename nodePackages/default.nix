@@ -2068,6 +2068,8 @@
     he = callPackage ./he/1.1.1.nix {};
     he_1-1-1 = callPackage ./he/1.1.1.nix {};
     he_0-5-0 = callPackage ./he/0.5.0.nix {};
+    history = callPackage ./history/4.6.3.nix {};
+    history_4-6-3 = callPackage ./history/4.6.3.nix {};
     hoek = callPackage ./hoek/3.0.4.nix {};
     hoek_3-0-4 = callPackage ./hoek/3.0.4.nix {};
     hoek_2-16-3 = callPackage ./hoek/2.16.3.nix {};
@@ -3594,7 +3596,8 @@
     path-platform_0-11-15 = callPackage ./path-platform/0.11.15.nix {};
     path-posix = callPackage ./path-posix/1.0.0.nix {};
     path-posix_1-0-0 = callPackage ./path-posix/1.0.0.nix {};
-    path-to-regexp = callPackage ./path-to-regexp/0.1.7.nix {};
+    path-to-regexp = callPackage ./path-to-regexp/1.7.0.nix {};
+    path-to-regexp_1-7-0 = callPackage ./path-to-regexp/1.7.0.nix {};
     path-to-regexp_0-1-7 = callPackage ./path-to-regexp/0.1.7.nix {};
     path-to-regexp_0-1-3 = callPackage ./path-to-regexp/0.1.3.nix {};
     path-type = callPackage ./path-type/2.0.0.nix {};
@@ -3967,6 +3970,10 @@
     react-portal_3-1-0 = callPackage ./react-portal/3.1.0.nix {};
     react-redux = callPackage ./react-redux/5.0.4.nix {};
     react-redux_5-0-4 = callPackage ./react-redux/5.0.4.nix {};
+    react-router = callPackage ./react-router/4.1.2.nix {};
+    react-router_4-1-2 = callPackage ./react-router/4.1.2.nix {};
+    react-router-dom = callPackage ./react-router-dom/4.1.2.nix {};
+    react-router-dom_4-1-2 = callPackage ./react-router-dom/4.1.2.nix {};
     react-test-renderer = callPackage ./react-test-renderer/15.5.4.nix {};
     react-test-renderer_15-5-4 = callPackage ./react-test-renderer/15.5.4.nix {};
     react-tether = callPackage ./react-tether/0.5.7.nix {};
@@ -4150,6 +4157,8 @@
     resolve-from = callPackage ./resolve-from/2.0.0.nix {};
     resolve-from_2-0-0 = callPackage ./resolve-from/2.0.0.nix {};
     resolve-from_1-0-1 = callPackage ./resolve-from/1.0.1.nix {};
+    resolve-pathname = callPackage ./resolve-pathname/2.1.0.nix {};
+    resolve-pathname_2-1-0 = callPackage ./resolve-pathname/2.1.0.nix {};
     response-time = callPackage ./response-time/2.3.1.nix {};
     response-time_2-3-1 = callPackage ./response-time/2.3.1.nix {};
     restore-cursor = callPackage ./restore-cursor/1.0.1.nix {};
@@ -4868,6 +4877,8 @@
     validate-npm-package-name_2-2-2 = callPackage ./validate-npm-package-name/2.2.2.nix {};
     validator = callPackage ./validator/4.3.0.nix {};
     validator_4-3-0 = callPackage ./validator/4.3.0.nix {};
+    value-equal = callPackage ./value-equal/0.2.1.nix {};
+    value-equal_0-2-1 = callPackage ./value-equal/0.2.1.nix {};
     vary = callPackage ./vary/1.1.0.nix {};
     vary_1-1-0 = callPackage ./vary/1.1.0.nix {};
     vary_1-0-1 = callPackage ./vary/1.0.1.nix {};
@@ -4913,6 +4924,8 @@
     walker_1-0-7 = callPackage ./walker/1.0.7.nix {};
     ware = callPackage ./ware/1.3.0.nix {};
     ware_1-3-0 = callPackage ./ware/1.3.0.nix {};
+    warning = callPackage ./warning/3.0.0.nix {};
+    warning_3-0-0 = callPackage ./warning/3.0.0.nix {};
     watch = callPackage ./watch/0.10.0.nix {};
     watch_0-10-0 = callPackage ./watch/0.10.0.nix {};
     watchify = callPackage ./watchify/3.8.0.nix {};
