@@ -1885,7 +1885,8 @@
     grunt-angular-templates_1-0-3 = callPackage ./grunt-angular-templates/1.0.3.nix {};
     grunt-browserify = callPackage ./grunt-browserify/1.2.5.nix {};
     grunt-browserify_1-2-5 = callPackage ./grunt-browserify/1.2.5.nix {};
-    grunt-cli = callPackage ./grunt-cli/0.1.13.nix {};
+    grunt-cli = callPackage ./grunt-cli/1.2.0.nix {};
+    grunt-cli_1-2-0 = callPackage ./grunt-cli/1.2.0.nix {};
     grunt-cli_0-1-13 = callPackage ./grunt-cli/0.1.13.nix {};
     grunt-coffeelint = callPackage ./grunt-coffeelint/0.0.13.nix {};
     grunt-coffeelint_0-0-13 = callPackage ./grunt-coffeelint/0.0.13.nix {};
@@ -1938,6 +1939,8 @@
     grunt-karma_2-0-0 = callPackage ./grunt-karma/2.0.0.nix {};
     grunt-karma_0-12-2 = callPackage ./grunt-karma/0.12.2.nix {};
     grunt-karma_0-6-2 = callPackage ./grunt-karma/0.6.2.nix {};
+    grunt-known-options = callPackage ./grunt-known-options/1.1.0.nix {};
+    grunt-known-options_1-1-0 = callPackage ./grunt-known-options/1.1.0.nix {};
     grunt-legacy-log = callPackage ./grunt-legacy-log/0.1.2.nix {};
     grunt-legacy-log_0-1-2 = callPackage ./grunt-legacy-log/0.1.2.nix {};
     grunt-legacy-log-utils = callPackage ./grunt-legacy-log-utils/0.1.1.nix {};
@@ -4014,8 +4017,8 @@
     readable-stream_2-1-5 = callPackage ./readable-stream/2.1.5.nix {};
     readable-stream_2-0-5 = callPackage ./readable-stream/2.0.5.nix {};
     readable-stream_2-0-4 = callPackage ./readable-stream/2.0.4.nix {};
-    readable-stream_1-1-13 = callPackage ./readable-stream/1.1.13.nix {};
     readable-stream_1-1-13-1 = callPackage ./readable-stream/1.1.13-1.nix {};
+    readable-stream_1-1-13 = callPackage ./readable-stream/1.1.13.nix {};
     readable-stream_1-0-33 = callPackage ./readable-stream/1.0.33.nix {};
     readable-stream_1-0-31 = callPackage ./readable-stream/1.0.31.nix {};
     readable-stream_1-0-27-1 = callPackage ./readable-stream/1.0.27-1.nix {};
@@ -5093,8 +5096,8 @@
     yargs_1-3-3 = callPackage ./yargs/1.3.3.nix {};
     yargs-parser = callPackage ./yargs-parser/5.0.0.nix {};
     yargs-parser_5-0-0 = callPackage ./yargs-parser/5.0.0.nix {};
-    yargs-parser_4-2-1 = callPackage ./yargs-parser/4.2.1.nix {};
     yargs-parser_4-2-1-candidate-1 = callPackage ./yargs-parser/4.2.1-candidate.1.nix {};
+    yargs-parser_4-2-1 = callPackage ./yargs-parser/4.2.1.nix {};
     yargs-parser_2-4-1 = callPackage ./yargs-parser/2.4.1.nix {};
     yauzl = callPackage ./yauzl/2.4.1.nix {};
     yauzl_2-4-1 = callPackage ./yauzl/2.4.1.nix {};
