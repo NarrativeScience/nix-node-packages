@@ -7,6 +7,9 @@ buildNodePackage {
       sha1 = "bb9bm036snapayy6fy2mmhrv93kbfpv3";
     };
     propagatedBuildInputs = [pkgs.libkrb5];
+    patchDependencies = {
+      node-gyp = "~3.6";
+    };
     deps = with nodePackages; [
       node-gyp_3-6-0
       nan_2-2-0
