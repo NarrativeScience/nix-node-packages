@@ -8,7 +8,7 @@ buildNodePackage {
     };
     propagatedBuildInputs = [pkgs.libkrb5];
     deps = with nodePackages; [
-      node-gyp_0-13-1
+      node-gyp_3-6-0
       nan_2-2-0
     ];
     devDependencies = [];
