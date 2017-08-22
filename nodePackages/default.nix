@@ -1976,7 +1976,8 @@
     grunt-wiredep_2-0-0 = callPackage ./grunt-wiredep/2.0.0.nix {};
     gruntfile-editor = callPackage ./gruntfile-editor/1.1.0.nix {};
     gruntfile-editor_1-1-0 = callPackage ./gruntfile-editor/1.1.0.nix {};
-    gulp = callPackage ./gulp/3.9.0.nix {};
+    gulp = callPackage ./gulp/3.9.1.nix {};
+    gulp_3-9-1 = callPackage ./gulp/3.9.1.nix {};
     gulp_3-9-0 = callPackage ./gulp/3.9.0.nix {};
     gulp_3-8-11 = callPackage ./gulp/3.8.11.nix {};
     gulp_3-6-2 = callPackage ./gulp/3.6.2.nix {};
@@ -1990,7 +1991,8 @@
     gulp-mocha = callPackage ./gulp-mocha/2.1.3.nix {};
     gulp-mocha_2-1-3 = callPackage ./gulp-mocha/2.1.3.nix {};
     gulp-mocha_0-4-1 = callPackage ./gulp-mocha/0.4.1.nix {};
-    gulp-nodemon = callPackage ./gulp-nodemon/1.0.5.nix {};
+    gulp-nodemon = callPackage ./gulp-nodemon/2.2.1.nix {};
+    gulp-nodemon_2-2-1 = callPackage ./gulp-nodemon/2.2.1.nix {};
     gulp-nodemon_1-0-5 = callPackage ./gulp-nodemon/1.0.5.nix {};
     gulp-notify = callPackage ./gulp-notify/0.6.2.nix {};
     gulp-notify_0-6-2 = callPackage ./gulp-notify/0.6.2.nix {};
@@ -2166,6 +2168,8 @@
     ignore = callPackage ./ignore/3.2.7.nix {};
     ignore_3-2-7 = callPackage ./ignore/3.2.7.nix {};
     ignore_2-2-19 = callPackage ./ignore/2.2.19.nix {};
+    ignore-by-default = callPackage ./ignore-by-default/1.0.1.nix {};
+    ignore-by-default_1-0-1 = callPackage ./ignore-by-default/1.0.1.nix {};
     image-size = callPackage ./image-size/0.5.1.nix {};
     image-size_0-5-1 = callPackage ./image-size/0.5.1.nix {};
     image-size_0-3-5 = callPackage ./image-size/0.3.5.nix {};
@@ -3307,7 +3311,8 @@
     nodemailer-smtp-transport_1-0-4 = callPackage ./nodemailer-smtp-transport/1.0.4.nix {};
     nodemailer-wellknown = callPackage ./nodemailer-wellknown/0.1.7.nix {};
     nodemailer-wellknown_0-1-7 = callPackage ./nodemailer-wellknown/0.1.7.nix {};
-    nodemon = callPackage ./nodemon/1.8.1.nix {};
+    nodemon = callPackage ./nodemon/1.11.0.nix {};
+    nodemon_1-11-0 = callPackage ./nodemon/1.11.0.nix {};
     nodemon_1-8-1 = callPackage ./nodemon/1.8.1.nix {};
     nodemon_1-3-0-7 = callPackage ./nodemon/1.3.0-7.nix {};
     nodemon_0-7-10 = callPackage ./nodemon/0.7.10.nix {};
