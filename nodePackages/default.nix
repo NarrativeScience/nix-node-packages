@@ -1535,6 +1535,8 @@
     evp_bytestokey_1-0-0 = callPackage ./evp_bytestokey/1.0.0.nix {};
     exec-sh = callPackage ./exec-sh/0.2.0.nix {};
     exec-sh_0-2-0 = callPackage ./exec-sh/0.2.0.nix {};
+    exenv = callPackage ./exenv/1.2.2.nix {};
+    exenv_1-2-2 = callPackage ./exenv/1.2.2.nix {};
     exit = callPackage ./exit/0.1.2.nix {};
     exit_0-1-2 = callPackage ./exit/0.1.2.nix {};
     exit-hook = callPackage ./exit-hook/1.1.1.nix {};
@@ -3970,6 +3972,10 @@
     react-dom_15-5-4 = callPackage ./react-dom/15.5.4.nix {};
     namespaces.types.react-dom = callPackage (./. + "/@types/react-dom/15.5.1.nix") {};
     namespaces.types.react-dom_15-5-1 = callPackage (./. + "/@types/react-dom/15.5.1.nix") {};
+    react-dom-factories = callPackage ./react-dom-factories/1.0.1.nix {};
+    react-dom-factories_1-0-1 = callPackage ./react-dom-factories/1.0.1.nix {};
+    react-modal = callPackage ./react-modal/2.2.4.nix {};
+    react-modal_2-2-4 = callPackage ./react-modal/2.2.4.nix {};
     react-moment-proptypes = callPackage ./react-moment-proptypes/1.4.0.nix {};
     react-moment-proptypes_1-4-0 = callPackage ./react-moment-proptypes/1.4.0.nix {};
     react-onclickoutside = callPackage ./react-onclickoutside/5.11.1.nix {};
@@ -4022,8 +4028,8 @@
     readable-stream_2-1-5 = callPackage ./readable-stream/2.1.5.nix {};
     readable-stream_2-0-5 = callPackage ./readable-stream/2.0.5.nix {};
     readable-stream_2-0-4 = callPackage ./readable-stream/2.0.4.nix {};
-    readable-stream_1-1-13-1 = callPackage ./readable-stream/1.1.13-1.nix {};
     readable-stream_1-1-13 = callPackage ./readable-stream/1.1.13.nix {};
+    readable-stream_1-1-13-1 = callPackage ./readable-stream/1.1.13-1.nix {};
     readable-stream_1-0-33 = callPackage ./readable-stream/1.0.33.nix {};
     readable-stream_1-0-31 = callPackage ./readable-stream/1.0.31.nix {};
     readable-stream_1-0-27-1 = callPackage ./readable-stream/1.0.27-1.nix {};
@@ -5101,8 +5107,8 @@
     yargs_1-3-3 = callPackage ./yargs/1.3.3.nix {};
     yargs-parser = callPackage ./yargs-parser/5.0.0.nix {};
     yargs-parser_5-0-0 = callPackage ./yargs-parser/5.0.0.nix {};
-    yargs-parser_4-2-1-candidate-1 = callPackage ./yargs-parser/4.2.1-candidate.1.nix {};
     yargs-parser_4-2-1 = callPackage ./yargs-parser/4.2.1.nix {};
+    yargs-parser_4-2-1-candidate-1 = callPackage ./yargs-parser/4.2.1-candidate.1.nix {};
     yargs-parser_2-4-1 = callPackage ./yargs-parser/2.4.1.nix {};
     yauzl = callPackage ./yauzl/2.4.1.nix {};
     yauzl_2-4-1 = callPackage ./yauzl/2.4.1.nix {};
