@@ -2071,7 +2071,8 @@
     he = callPackage ./he/1.1.1.nix {};
     he_1-1-1 = callPackage ./he/1.1.1.nix {};
     he_0-5-0 = callPackage ./he/0.5.0.nix {};
-    history = callPackage ./history/4.6.3.nix {};
+    history = callPackage ./history/4.7.2.nix {};
+    history_4-7-2 = callPackage ./history/4.7.2.nix {};
     history_4-6-3 = callPackage ./history/4.6.3.nix {};
     hoek = callPackage ./hoek/3.0.4.nix {};
     hoek_3-0-4 = callPackage ./hoek/3.0.4.nix {};
@@ -4017,8 +4018,8 @@
     readable-stream_2-1-5 = callPackage ./readable-stream/2.1.5.nix {};
     readable-stream_2-0-5 = callPackage ./readable-stream/2.0.5.nix {};
     readable-stream_2-0-4 = callPackage ./readable-stream/2.0.4.nix {};
-    readable-stream_1-1-13-1 = callPackage ./readable-stream/1.1.13-1.nix {};
     readable-stream_1-1-13 = callPackage ./readable-stream/1.1.13.nix {};
+    readable-stream_1-1-13-1 = callPackage ./readable-stream/1.1.13-1.nix {};
     readable-stream_1-0-33 = callPackage ./readable-stream/1.0.33.nix {};
     readable-stream_1-0-31 = callPackage ./readable-stream/1.0.31.nix {};
     readable-stream_1-0-27-1 = callPackage ./readable-stream/1.0.27-1.nix {};
@@ -4160,7 +4161,8 @@
     resolve-from = callPackage ./resolve-from/2.0.0.nix {};
     resolve-from_2-0-0 = callPackage ./resolve-from/2.0.0.nix {};
     resolve-from_1-0-1 = callPackage ./resolve-from/1.0.1.nix {};
-    resolve-pathname = callPackage ./resolve-pathname/2.1.0.nix {};
+    resolve-pathname = callPackage ./resolve-pathname/2.2.0.nix {};
+    resolve-pathname_2-2-0 = callPackage ./resolve-pathname/2.2.0.nix {};
     resolve-pathname_2-1-0 = callPackage ./resolve-pathname/2.1.0.nix {};
     response-time = callPackage ./response-time/2.3.1.nix {};
     response-time_2-3-1 = callPackage ./response-time/2.3.1.nix {};
@@ -4880,7 +4882,8 @@
     validate-npm-package-name_2-2-2 = callPackage ./validate-npm-package-name/2.2.2.nix {};
     validator = callPackage ./validator/4.3.0.nix {};
     validator_4-3-0 = callPackage ./validator/4.3.0.nix {};
-    value-equal = callPackage ./value-equal/0.2.1.nix {};
+    value-equal = callPackage ./value-equal/0.4.0.nix {};
+    value-equal_0-4-0 = callPackage ./value-equal/0.4.0.nix {};
     value-equal_0-2-1 = callPackage ./value-equal/0.2.1.nix {};
     vary = callPackage ./vary/1.1.0.nix {};
     vary_1-1-0 = callPackage ./vary/1.1.0.nix {};
@@ -5096,8 +5099,8 @@
     yargs_1-3-3 = callPackage ./yargs/1.3.3.nix {};
     yargs-parser = callPackage ./yargs-parser/5.0.0.nix {};
     yargs-parser_5-0-0 = callPackage ./yargs-parser/5.0.0.nix {};
-    yargs-parser_4-2-1-candidate-1 = callPackage ./yargs-parser/4.2.1-candidate.1.nix {};
     yargs-parser_4-2-1 = callPackage ./yargs-parser/4.2.1.nix {};
+    yargs-parser_4-2-1-candidate-1 = callPackage ./yargs-parser/4.2.1-candidate.1.nix {};
     yargs-parser_2-4-1 = callPackage ./yargs-parser/2.4.1.nix {};
     yauzl = callPackage ./yauzl/2.4.1.nix {};
     yauzl_2-4-1 = callPackage ./yauzl/2.4.1.nix {};
