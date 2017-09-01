@@ -1633,6 +1633,8 @@
     file-exists_0-1-1 = callPackage ./file-exists/0.1.1.nix {};
     file-loader = callPackage ./file-loader/0.11.1.nix {};
     file-loader_0-11-1 = callPackage ./file-loader/0.11.1.nix {};
+    file-saver = callPackage ./file-saver/1.3.3.nix {};
+    file-saver_1-3-3 = callPackage ./file-saver/1.3.3.nix {};
     file-type = callPackage ./file-type/3.3.0.nix {};
     file-type_3-3-0 = callPackage ./file-type/3.3.0.nix {};
     file-uri-to-path = callPackage ./file-uri-to-path/0.0.2.nix {};
