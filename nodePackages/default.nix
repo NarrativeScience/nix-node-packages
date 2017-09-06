@@ -1666,6 +1666,8 @@
     file-exists_0-1-1 = callPackage ./file-exists/0.1.1.nix {};
     file-loader = callPackage ./file-loader/0.11.1.nix {};
     file-loader_0-11-1 = callPackage ./file-loader/0.11.1.nix {};
+    file-saver = callPackage ./file-saver/1.3.3.nix {};
+    file-saver_1-3-3 = callPackage ./file-saver/1.3.3.nix {};
     file-type = callPackage ./file-type/3.3.0.nix {};
     file-type_3-3-0 = callPackage ./file-type/3.3.0.nix {};
     file-uri-to-path = callPackage ./file-uri-to-path/0.0.2.nix {};
@@ -4097,8 +4099,8 @@
     readable-stream_2-1-5 = callPackage ./readable-stream/2.1.5.nix {};
     readable-stream_2-0-5 = callPackage ./readable-stream/2.0.5.nix {};
     readable-stream_2-0-4 = callPackage ./readable-stream/2.0.4.nix {};
-    readable-stream_1-1-13-1 = callPackage ./readable-stream/1.1.13-1.nix {};
     readable-stream_1-1-13 = callPackage ./readable-stream/1.1.13.nix {};
+    readable-stream_1-1-13-1 = callPackage ./readable-stream/1.1.13-1.nix {};
     readable-stream_1-0-33 = callPackage ./readable-stream/1.0.33.nix {};
     readable-stream_1-0-31 = callPackage ./readable-stream/1.0.31.nix {};
     readable-stream_1-0-27-1 = callPackage ./readable-stream/1.0.27-1.nix {};
@@ -5210,8 +5212,8 @@
     yargs_1-3-3 = callPackage ./yargs/1.3.3.nix {};
     yargs-parser = callPackage ./yargs-parser/5.0.0.nix {};
     yargs-parser_5-0-0 = callPackage ./yargs-parser/5.0.0.nix {};
-    yargs-parser_4-2-1-candidate-1 = callPackage ./yargs-parser/4.2.1-candidate.1.nix {};
     yargs-parser_4-2-1 = callPackage ./yargs-parser/4.2.1.nix {};
+    yargs-parser_4-2-1-candidate-1 = callPackage ./yargs-parser/4.2.1-candidate.1.nix {};
     yargs-parser_2-4-1 = callPackage ./yargs-parser/2.4.1.nix {};
     yarn = callPackage ./yarn/0.28.1.nix {};
     yarn_0-28-1 = callPackage ./yarn/0.28.1.nix {};
