@@ -1238,6 +1238,7 @@
     core-js_2-3-0 = callPackage ./core-js/2.3.0.nix {};
     core-js_2-2-1 = callPackage ./core-js/2.2.1.nix {};
     core-js_1-2-6 = callPackage ./core-js/1.2.6.nix {};
+    core-js_0-9-18 = callPackage ./core-js/0.9.18.nix {};
     core-util-is = callPackage ./core-util-is/1.0.2.nix {};
     core-util-is_1-0-2 = callPackage ./core-util-is/1.0.2.nix {};
     cors = callPackage ./cors/2.7.1.nix {};
@@ -4715,6 +4716,8 @@
     protractor_2-5-1 = callPackage ./protractor/2.5.1.nix {};
     protractor_2-2-0 = callPackage ./protractor/2.2.0.nix {};
     protractor_1-8-0 = callPackage ./protractor/1.8.0.nix {};
+    protractor-flake = callPackage ./protractor-flake/3.0.1.nix {};
+    protractor-flake_3-0-1 = callPackage ./protractor-flake/3.0.1.nix {};
     protractor-jasmine2-screenshot-reporter = callPackage ./protractor-jasmine2-screenshot-reporter/0.1.7.nix {};
     protractor-jasmine2-screenshot-reporter_0-1-7 = callPackage ./protractor-jasmine2-screenshot-reporter/0.1.7.nix {};
     protractor-screenshot-reporter = callPackage ./protractor-screenshot-reporter/0.0.5.nix {};
@@ -4988,8 +4991,8 @@
     readable-stream_2-0-6 = callPackage ./readable-stream/2.0.6.nix {};
     readable-stream_2-0-5 = callPackage ./readable-stream/2.0.5.nix {};
     readable-stream_2-0-4 = callPackage ./readable-stream/2.0.4.nix {};
-    readable-stream_1-1-13 = callPackage ./readable-stream/1.1.13.nix {};
     readable-stream_1-1-13-1 = callPackage ./readable-stream/1.1.13-1.nix {};
+    readable-stream_1-1-13 = callPackage ./readable-stream/1.1.13.nix {};
     readable-stream_1-0-33 = callPackage ./readable-stream/1.0.33.nix {};
     readable-stream_1-0-31 = callPackage ./readable-stream/1.0.31.nix {};
     readable-stream_1-0-27-1 = callPackage ./readable-stream/1.0.27-1.nix {};
