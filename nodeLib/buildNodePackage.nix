@@ -267,7 +267,7 @@ let
 
     patchPhase = joinLines [
       "runHook prePatch"
-      "patchShebangs $PWD >/dev/null"
+      "patchShebangs \"$PWD\" >/dev/null"
       # Ensure that the package name matches what is in the package.json.
       "check-package-json checkPackageName ${fullName}"
       # Remove any impure dependencies from the package.json (see script
@@ -441,7 +441,7 @@ let
          rm dep)}
 
       # Copy the folder that was created for this path to $out/lib.
-      cp -r $PWD $out/lib/node_modules/${self.fullName}
+      cp -r "$PWD" $out/lib/node_modules/${self.fullName}
 
       # Remove the node_modules subfolder from there, and instead put things
       # in $PWD/node_modules into that folder.

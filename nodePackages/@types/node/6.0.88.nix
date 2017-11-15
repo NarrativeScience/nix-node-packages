@@ -7,6 +7,7 @@ buildNodePackage {
       sha1 = "f618f11a944f6a18d92b5c472028728a3e3d4b66";
     };
     namespace = "types";
+    patchPhase = "touch index.js";
     deps = [];
     devDependencies = [];
     meta = {
