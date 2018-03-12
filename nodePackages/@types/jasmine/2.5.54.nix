@@ -5,8 +5,10 @@ buildNodePackage {
     src = fetchUrlWithHeaders {
       url = "https://registry.npmjs.org/@types/jasmine/-/jasmine-2.5.54.tgz";
       sha1 = "a6b5f2ae2afb6e0307774e8c7c608e037d491c63";
-      headers.Authorization = "Bearer ${namespaceTokens.types}";
     };
+    patchPhase = ''
+      touch index.js
+    '';
     namespace = "types";
     deps = [];
     devDependencies = [];

@@ -27,7 +27,7 @@ buildNodePackage {
       jasminewd2_0-0-6
       jasmine_2-3-2
       q_1-0-0
-      selenium-webdriver_2-47-0
+      selenium-webdriver_2-47-1
       accessibility-developer-tools_2-6-0
       minijasminenode_1-1-1
       saucelabs_1-0-1

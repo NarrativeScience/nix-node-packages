@@ -5274,7 +5274,7 @@
     selenium-webdriver_2-53-3 = callPackage ./selenium-webdriver/2.53.3.nix {};
     selenium-webdriver_2-53-2 = callPackage ./selenium-webdriver/2.53.2.nix {};
     selenium-webdriver_2-52-0 = callPackage ./selenium-webdriver/2.52.0.nix {};
-    selenium-webdriver_2-47-0 = callPackage ./selenium-webdriver/2.47.0.nix {};
+    selenium-webdriver_2-47-1 = callPackage ./selenium-webdriver/2.47.1.nix {};
     selenium-webdriver_2-45-1 = callPackage ./selenium-webdriver/2.45.1.nix {};
     selenium-webdriver_2-44-0 = callPackage ./selenium-webdriver/2.44.0.nix {};
     namespaces.types.selenium-webdriver = callPackage (./. + "/@types/selenium-webdriver/2.53.37.nix") {};
