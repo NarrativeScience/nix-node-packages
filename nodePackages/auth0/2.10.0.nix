@@ -7,7 +7,7 @@ buildNodePackage {
       sha1 = "8f08e45773405cc121e0fdbc3828524dbfaa53dc";
     };
     deps = with nodePackages; [
-      object-assign_4-1-0
+      object-assign-dot_4-1-0
       lru-memoizer_1-12-0
       retry_0-10-1
       rest-facade_1-10-1

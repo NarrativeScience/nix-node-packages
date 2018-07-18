@@ -4240,6 +4240,8 @@
     object-assign_2-1-1 = callPackage ./object-assign/2.1.1.nix {};
     object-assign_1-0-0 = callPackage ./object-assign/1.0.0.nix {};
     object-assign_0-3-1 = callPackage ./object-assign/0.3.1.nix {};
+    object-assign-dot = callPackage ./object-assign-dot/4.1.0.nix {};
+    object-assign-dot_4-1-0 = callPackage ./object-assign-dot/4.1.0.nix {};
     object-component = callPackage ./object-component/0.0.3.nix {};
     object-component_0-0-3 = callPackage ./object-component/0.0.3.nix {};
     object-entries = callPackage ./object-entries/1.0.4.nix {};
