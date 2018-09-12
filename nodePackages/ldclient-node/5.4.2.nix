@@ -20,6 +20,9 @@ buildNodePackage {
       semver_5-5-0
       request-etag_2-0-3
     ];
+    patchDependencies = {
+      "tunnel" = "0.0.4-pre";
+    };
     meta = {
       homepage = "https://github.com/launchdarkly/node-client";
       description = "LaunchDarkly SDK for Node.js";
