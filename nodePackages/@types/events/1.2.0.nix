@@ -5,8 +5,8 @@ buildNodePackage {
     src = fetchUrlWithHeaders {
       url = "https://registry.npmjs.org/@types/events/-/events-1.2.0.tgz";
       sha1 = "81a6731ce4df43619e5c8c945383b3e62a89ea86";
-      headers.Authorization = "Bearer ${namespaceTokens.types}";
     };
+    patchPhase = "touch index.js";
     namespace = "types";
     deps = [];
     devDependencies = [];

@@ -5,8 +5,8 @@ buildNodePackage {
     src = fetchUrlWithHeaders {
       url = "https://registry.npmjs.org/@types/redis/-/redis-2.8.6.tgz";
       sha1 = "3674d07a13ad76bccda4c37dc3909e4e95757e7e";
-      headers.Authorization = "Bearer ${namespaceTokens.types}";
     };
+    patchPhase = "touch index.js";
     namespace = "types";
     deps = with nodePackages; [
       namespaces.types.node_6-0-88
