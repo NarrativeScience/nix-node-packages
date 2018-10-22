@@ -8,7 +8,7 @@ buildNodePackage {
     };
     deps = with nodePackages; [
       debug_2-6-9
-      iconv-lite_0-4-23
+      iconv-lite_0-4-24
       sax_1-2-4
     ];
     meta = {
