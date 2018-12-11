@@ -3,7 +3,7 @@ buildNodePackage {
     name = "subarg";
     version = "1.0.0";
     src = pkgs.fetchurl {
-      url = "http://registry.npmjs.org/subarg/-/subarg-1.0.0.tgz";
+      url = "https://registry.npmjs.org/subarg/-/subarg-1.0.0.tgz";
       sha1 = "f62cf17581e996b48fc965699f54c06ae268b8d2";
     };
     deps = with nodePackages; [

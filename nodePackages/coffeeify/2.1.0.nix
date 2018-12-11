@@ -7,9 +7,9 @@ buildNodePackage {
       sha1 = "06de80aa87b6194937734361def4ade254b71a1e";
     };
     deps = with nodePackages; [
-      convert-source-map_1-3-0
-      through2_2-0-0
-      coffee-script_1-12-2
+      convert-source-map_1-6-0
+      through2_2-0-3
+      coffee-script_1-12-7
     ];
     meta = {
       homepage = "https://github.com/jnordberg/coffeeify";

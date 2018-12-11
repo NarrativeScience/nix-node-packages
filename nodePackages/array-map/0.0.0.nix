@@ -3,7 +3,7 @@ buildNodePackage {
     name = "array-map";
     version = "0.0.0";
     src = pkgs.fetchurl {
-      url = "http://registry.npmjs.org/array-map/-/array-map-0.0.0.tgz";
+      url = "https://registry.npmjs.org/array-map/-/array-map-0.0.0.tgz";
       sha1 = "88a2bab73d1cf7bcd5c1b118a003f66f665fa662";
     };
     deps = [];

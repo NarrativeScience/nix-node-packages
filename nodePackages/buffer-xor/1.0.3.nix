@@ -3,7 +3,7 @@ buildNodePackage {
     name = "buffer-xor";
     version = "1.0.3";
     src = pkgs.fetchurl {
-      url = "http://registry.npmjs.org/buffer-xor/-/buffer-xor-1.0.3.tgz";
+      url = "https://registry.npmjs.org/buffer-xor/-/buffer-xor-1.0.3.tgz";
       sha1 = "26e61ed1422fb70dd42e6e36729ed51d855fe8d9";
     };
     deps = [];

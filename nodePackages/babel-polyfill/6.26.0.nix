@@ -9,7 +9,7 @@ buildNodePackage {
     deps = with nodePackages; [
       regenerator-runtime_0-10-5
       babel-runtime_6-26-0
-      core-js_2-5-1
+      core-js_2-5-7
     ];
     devDependencies = [];
     meta = {

@@ -7,7 +7,7 @@ buildNodePackage {
       sha1 = "e7012310d8f417f4deb5712150e5678b87ae565f";
     };
     deps = with nodePackages; [
-      sha-js_2-4-4
+      sha-js_2-4-11
       json-stable-stringify_0-0-1
     ];
     devDependencies = [];
