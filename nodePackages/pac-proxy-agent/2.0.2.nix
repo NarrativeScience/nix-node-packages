@@ -8,7 +8,7 @@ buildNodePackage {
     };
     deps = with nodePackages; [
       get-uri_2-0-2
-      http-proxy-agent_2-1-0
+      http-proxy-agent_2-2-1
       debug_3-1-0
       raw-body_2-3-3
       pac-resolver_3-0-0

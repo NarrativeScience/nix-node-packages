@@ -1624,8 +1624,8 @@
     http-errors_1-6-3 = callPackage ./http-errors/1.6.3.nix {};
     http-proxy = callPackage ./http-proxy/1.17.0.nix {};
     http-proxy_1-17-0 = callPackage ./http-proxy/1.17.0.nix {};
-    http-proxy-agent = callPackage ./http-proxy-agent/2.1.0.nix {};
-    http-proxy-agent_2-1-0 = callPackage ./http-proxy-agent/2.1.0.nix {};
+    http-proxy-agent = callPackage ./http-proxy-agent/2.2.1.nix {};
+    http-proxy-agent_2-2-1 = callPackage ./http-proxy-agent/2.2.1.nix {};
     http-signature = callPackage ./http-signature/1.2.0.nix {};
     http-signature_1-2-0 = callPackage ./http-signature/1.2.0.nix {};
     http-signature_0-10-1 = callPackage ./http-signature/0.10.1.nix {};

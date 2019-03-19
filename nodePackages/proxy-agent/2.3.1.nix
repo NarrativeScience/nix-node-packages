@@ -7,7 +7,7 @@ buildNodePackage {
       sha1 = "3d49d863d46cf5f37ca8394848346ea02373eac6";
     };
     deps = with nodePackages; [
-      http-proxy-agent_2-1-0
+      http-proxy-agent_2-2-1
       proxy-from-env_1-0-0
       pac-proxy-agent_2-0-2
       debug_3-1-0
