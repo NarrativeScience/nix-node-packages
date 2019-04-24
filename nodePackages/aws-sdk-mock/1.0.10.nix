@@ -7,9 +7,9 @@ buildNodePackage {
       sha1 = "15ef403ceb83f2b911a83a612e13a3d43977f1d5";
     };
     deps = with nodePackages; [
-      sinon_1-17-4
+      sinon_1-17-7
       traverse_0-6-6
-      aws-sdk_2-3-8
+      aws-sdk_2-337-0
     ];
     meta = {
       homepage = "https://github.com/dwyl/aws-sdk-mock#readme";

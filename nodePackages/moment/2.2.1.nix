@@ -3,10 +3,12 @@ buildNodePackage {
     name = "moment";
     version = "2.2.1";
     src = pkgs.fetchurl {
-      url = "https://registry.npmjs.org/moment/-/moment-2.2.1.tgz";
+      url = "http://registry.npmjs.org/moment/-/moment-2.2.1.tgz";
       sha1 = "9793e45f549bb698f2e8755bcddc05edc539bc64";
     };
     deps = [];
+    # DoS. Use 2.22 or later.
+    brokenPackage = true;
     meta = {
       homepage = "http://momentjs.com";
       description = "Parse, manipulate, and display dates.";

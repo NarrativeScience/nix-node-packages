@@ -3,7 +3,7 @@ buildNodePackage {
     name = "pad-stdio";
     version = "1.0.0";
     src = pkgs.fetchurl {
-      url = "http://registry.npmjs.org/pad-stdio/-/pad-stdio-1.0.0.tgz";
+      url = "https://registry.npmjs.org/pad-stdio/-/pad-stdio-1.0.0.tgz";
       sha1 = "79b282ae258e587f695dbd0381914362c0c98fcb";
     };
     deps = with nodePackages; [

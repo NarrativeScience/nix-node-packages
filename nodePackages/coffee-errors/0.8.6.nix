@@ -8,7 +8,7 @@ buildNodePackage {
     };
     deps = [];
     peerDependencies = with nodePackages; [
-      coffee-script_1-10-0
+      coffee-script_1-12-7
     ];
     meta = {
       homepage = "https://github.com/alexgorbatchev/coffee-errors";

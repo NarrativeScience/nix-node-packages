@@ -7,9 +7,9 @@ buildNodePackage {
       sha1 = "35f7da6c48ce4ddbfa264891ac593ee5ff8671e6";
     };
     deps = with nodePackages; [
-      extend_3-0-0
-      debug_2-2-0
-      agent-base_2-0-1
+      extend_3-0-2
+      debug_2-6-9
+      agent-base_2-1-1
     ];
     meta = {
       homepage = "https://github.com/TooTallNate/node-https-proxy-agent#readme";

@@ -7,7 +7,7 @@ buildNodePackage {
       sha1 = "5517489b547091b0930e095654ced25ee97e9491";
     };
     deps = with nodePackages; [
-      has_1-0-1
+      has_1-0-3
     ];
     meta = {
       homepage = "https://github.com/ljharb/is-regex";

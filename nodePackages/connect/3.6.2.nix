@@ -10,7 +10,7 @@ buildNodePackage {
       debug_2-6-7
       utils-merge_1-0-0
       finalhandler_1-0-3
-      parseurl_1-3-1
+      parseurl_1-3-2
     ];
     meta = {
       homepage = "https://github.com/senchalabs/connect#readme";

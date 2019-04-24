@@ -9,7 +9,7 @@ buildNodePackage {
     deps = with nodePackages; [
       formatio_1-1-1
       samsam_1-1-2
-      util_0-10-3
+      util_0-11-0
       lolex_1-3-2
     ];
     meta = {

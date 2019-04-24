@@ -3,7 +3,7 @@ buildNodePackage {
     name = "path-platform";
     version = "0.11.15";
     src = pkgs.fetchurl {
-      url = "http://registry.npmjs.org/path-platform/-/path-platform-0.11.15.tgz";
+      url = "https://registry.npmjs.org/path-platform/-/path-platform-0.11.15.tgz";
       sha1 = "e864217f74c36850f0852b78dc7bf7d4a5721bf2";
     };
     deps = [];

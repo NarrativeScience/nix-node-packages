@@ -3,7 +3,7 @@ buildNodePackage {
     name = "lodash.memoize";
     version = "3.0.4";
     src = pkgs.fetchurl {
-      url = "http://registry.npmjs.org/lodash.memoize/-/lodash.memoize-3.0.4.tgz";
+      url = "https://registry.npmjs.org/lodash.memoize/-/lodash.memoize-3.0.4.tgz";
       sha1 = "2dcbd2c287cbc0a55cc42328bd0c736150d53e3f";
     };
     deps = [];

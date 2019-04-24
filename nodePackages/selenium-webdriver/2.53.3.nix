@@ -9,7 +9,7 @@ buildNodePackage {
     deps = with nodePackages; [
       ws_1-1-1
       tmp_0-0-24
-      rimraf_2-6-1
+      rimraf_2-6-2
       adm-zip_0-4-4
       xml2js_0-4-4
     ];

@@ -10,8 +10,8 @@ buildNodePackage {
       on-finished_2-3-0
       escape-html_1-0-3
       debug_2-6-7
-      encodeurl_1-0-1
-      parseurl_1-3-1
+      encodeurl_1-0-2
+      parseurl_1-3-2
       unpipe_1-0-0
       statuses_1-3-1
     ];

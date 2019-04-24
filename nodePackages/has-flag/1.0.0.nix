@@ -3,7 +3,7 @@ buildNodePackage {
     name = "has-flag";
     version = "1.0.0";
     src = pkgs.fetchurl {
-      url = "http://registry.npmjs.org/has-flag/-/has-flag-1.0.0.tgz";
+      url = "https://registry.npmjs.org/has-flag/-/has-flag-1.0.0.tgz";
       sha1 = "9d9e793165ce017a00f00418c43f942a7b1d11fa";
     };
     deps = [];

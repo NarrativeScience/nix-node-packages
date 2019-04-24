@@ -8,11 +8,11 @@ buildNodePackage {
     };
     deps = with nodePackages; [
       pify_2-3-0
-      glob_7-1-1
-      array-union_1-0-1
+      glob_7-1-3
+      array-union_1-0-2
       arrify_1-0-1
       object-assign_4-1-1
-      pinkie-promise_2-0-0
+      pinkie-promise_2-0-1
     ];
     meta = {
       homepage = "https://github.com/sindresorhus/globby#readme";

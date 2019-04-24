@@ -3,7 +3,7 @@ buildNodePackage {
     name = "array-reduce";
     version = "0.0.0";
     src = pkgs.fetchurl {
-      url = "http://registry.npmjs.org/array-reduce/-/array-reduce-0.0.0.tgz";
+      url = "https://registry.npmjs.org/array-reduce/-/array-reduce-0.0.0.tgz";
       sha1 = "173899d3ffd1c7d9383e4479525dbe278cab5f2b";
     };
     deps = [];

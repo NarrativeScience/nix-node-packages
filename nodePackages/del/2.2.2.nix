@@ -7,13 +7,13 @@ buildNodePackage {
       sha1 = "c12c981d067846c84bcaf862cff930d907ffd1a8";
     };
     deps = with nodePackages; [
-      rimraf_2-5-4
+      rimraf_2-6-2
       globby_5-0-0
-      is-path-in-cwd_1-0-0
+      is-path-in-cwd_1-0-1
       pify_2-3-0
       is-path-cwd_1-0-0
       object-assign_4-1-1
-      pinkie-promise_2-0-0
+      pinkie-promise_2-0-1
     ];
     meta = {
       homepage = "https://github.com/sindresorhus/del#readme";

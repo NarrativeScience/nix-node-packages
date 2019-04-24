@@ -6,8 +6,11 @@ buildNodePackage {
       url = "https://registry.npmjs.org/bser/-/bser-2.0.0.tgz";
       sha1 = "9ac78d3ed5d915804fd87acb158bc797147a1719";
     };
+    patchDependencies = {
+      node-int64 = "^0.3.3";
+    };
     deps = with nodePackages; [
-      node-int64_0-4-0
+      node-int64_0-3-3
     ];
     devDependencies = [];
     meta = {

@@ -8,15 +8,15 @@ buildNodePackage {
     };
     deps = with nodePackages; [
       del_2-2-2
-      ini_1-3-4
+      ini_1-3-5
       minimist_1-2-0
-      q_1-4-1
-      rimraf_2-6-1
+      q_1-5-1
+      rimraf_2-6-2
       chalk_1-1-3
-      adm-zip_0-4-7
-      glob_7-1-2
-      request_2-81-0
-      semver_5-3-0
+      adm-zip_0-4-11
+      glob_7-1-3
+      request_2-88-0
+      semver_5-6-0
     ];
     # We need to hack in a different directory so webdriver-manager doesn't
     # try to mutate the nix store

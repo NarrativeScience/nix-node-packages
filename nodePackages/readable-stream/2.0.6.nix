@@ -3,7 +3,7 @@ buildNodePackage {
     name = "readable-stream";
     version = "2.0.6";
     src = pkgs.fetchurl {
-      url = "https://registry.npmjs.org/readable-stream/-/readable-stream-2.0.6.tgz";
+      url = "http://registry.npmjs.org/readable-stream/-/readable-stream-2.0.6.tgz";
       sha1 = "8f90341e68a53ccc928788dacfcd11b36eb9b78e";
     };
     deps = with nodePackages; [
@@ -12,7 +12,7 @@ buildNodePackage {
       isarray_1-0-0
       util-deprecate_1-0-2
       core-util-is_1-0-2
-      process-nextick-args_1-0-6
+      process-nextick-args_1-0-7
     ];
     meta = {
       homepage = "https://github.com/nodejs/readable-stream#readme";

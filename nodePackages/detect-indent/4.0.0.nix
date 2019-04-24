@@ -7,7 +7,7 @@ buildNodePackage {
       sha1 = "f76d064352cdf43a1cb6ce619c4ee3a9475de208";
     };
     deps = with nodePackages; [
-      repeating_2-0-0
+      repeating_2-0-1
     ];
     meta = {
       homepage = "https://github.com/sindresorhus/detect-indent";

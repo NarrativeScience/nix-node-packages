@@ -7,7 +7,7 @@ buildNodePackage {
       sha1 = "7d30f8f873f9a5bbc3a64dabc8d177e071ae426f";
     };
     deps = with nodePackages; [
-      string-width_1-0-1
+      string-width_1-0-2
     ];
     meta = {
       homepage = "https://github.com/chalk/wrap-ansi#readme";

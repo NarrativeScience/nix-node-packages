@@ -7,8 +7,8 @@ buildNodePackage {
       sha1 = "8e7548a96d3cc2327ee5e674168723a333bba2a0";
     };
     deps = with nodePackages; [
-      glob_7-1-1
-      minimatch_3-0-3
+      glob_7-1-3
+      minimatch_3-0-4
     ];
     meta = {
       homepage = "https://github.com/mklabs/node-fileset";

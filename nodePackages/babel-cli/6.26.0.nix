@@ -7,24 +7,24 @@ buildNodePackage {
       sha1 = "502ab54874d7db88ad00b887a06383ce03d002f1";
     };
     deps = with nodePackages; [
-      lodash_4-17-4
-      convert-source-map_1-5-0
+      lodash_4-17-11
+      convert-source-map_1-6-0
       output-file-sync_1-1-2
-      commander_2-11-0
+      commander_2-19-0
       babel-runtime_6-26-0
-      chokidar_1-6-1
-      fs-readdir-recursive_1-0-0
+      chokidar_1-7-0
+      fs-readdir-recursive_1-1-0
       babel-register_6-26-0
-      source-map_0-5-6
+      source-map_0-5-7
       slash_1-0-0
-      babel-core_6-26-0
-      glob_7-1-2
+      babel-core_6-26-3
+      glob_7-1-3
       path-is-absolute_1-0-1
       babel-polyfill_6-26-0
       v8flags_2-1-1
     ];
     optionalDependencies = with nodePackages; [
-      chokidar_1-6-1
+      chokidar_1-7-0
     ];
     meta = {
       homepage = "https://babeljs.io/";

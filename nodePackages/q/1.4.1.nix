@@ -3,7 +3,7 @@ buildNodePackage {
     name = "q";
     version = "1.4.1";
     src = pkgs.fetchurl {
-      url = "http://registry.npmjs.org/q/-/q-1.4.1.tgz";
+      url = "https://registry.npmjs.org/q/-/q-1.4.1.tgz";
       sha1 = "55705bcd93c5f3673530c2c2cbc0c2b3addc286e";
     };
     deps = [];

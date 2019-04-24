@@ -6,7 +6,6 @@ buildNodePackage {
       url = "https://registry.npmjs.org/@types/q/-/q-0.0.37.tgz";
       sha1 = "7d6a934b35ee2f0ed0646d286eba559599021c9e";
     };
-    patchPhase = "touch index.js";
     namespace = "types";
     deps = [];
     devDependencies = [];

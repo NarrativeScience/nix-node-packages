@@ -10,7 +10,7 @@ buildNodePackage {
       is-callable_1-1-3
       is-regex_1-0-4
       es-to-primitive_1-1-1
-      function-bind_1-1-0
+      function-bind_1-1-1
     ];
     meta = {
       homepage = "https://github.com/ljharb/es-abstract#readme";

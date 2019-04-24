@@ -6,20 +6,24 @@ buildNodePackage {
       url = "https://registry.npmjs.org/gulp/-/gulp-3.9.1.tgz";
       sha1 = "571ce45928dd40af6514fc4011866016c13845b4";
     };
+    # Boo semver :(
+    patchDependencies = {
+      deprecated = "^0.0.2";
+    };
     deps = with nodePackages; [
-      pretty-hrtime_1-0-1
+      pretty-hrtime_1-0-3
       vinyl-fs_0-3-14
-      interpret_1-0-2
+      interpret_1-1-0
       minimist_1-2-0
       archy_1-0-0
       chalk_1-1-3
-      orchestrator_0-3-7
-      v8flags_2-0-10
-      gulp-util_3-0-7
-      liftoff_2-2-0
-      deprecated_0-0-1
+      orchestrator_0-3-8
+      gulp-util_3-0-8
+      liftoff_2-5-0
+      deprecated_0-0-2
+      v8flags_2-1-1
       semver_4-3-6
-      tildify_1-1-2
+      tildify_1-0-0
     ];
     meta = {
       homepage = "http://gulpjs.com";
