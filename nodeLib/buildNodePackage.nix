@@ -16,13 +16,11 @@
 }:
 
 let
-  inherit (pkgs) stdenv python2 file darwin;
-  inherit (pkgs.lib) showVal optional foldl;
-  inherit (stdenv.lib) fold removePrefix hasPrefix subtractLists flip isList
-                       intersectLists isAttrs listToAttrs nameValuePair hasAttr
-                       mapAttrs filterAttrs attrNames elem concatMapStrings
-                       attrValues concatStringsSep optionalString filter
-                       optionalAttrs optionals;
+  inherit (pkgs) stdenv lib python2 file darwin;
+  inherit (lib) showVal optional foldl fold removePrefix hasPrefix subtractLists
+                flip isList intersectLists isAttrs listToAttrs nameValuePair hasAttr
+                mapAttrs filterAttrs attrNames elem concatMapStrings attrValues
+                concatStringsSep optionalString filter optionalAttrs optionals;
 
   # Join a list of strings with newlines, filtering out empty lines.
   joinLines = strings: concatStringsSep "\n" (filter (s: s != "") strings);
@@ -578,7 +576,6 @@ let
       propagatedBuildInputs = propagatedBuildInputs ++
                               attrValues runtimeDependencies ++
                               [nodejs];
-
 
       # Give as buildInputs npm, python, dev dependencies (if any) and
       # additional specified build inputs. In addition, on darwin we
